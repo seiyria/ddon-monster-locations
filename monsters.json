@@ -5,6 +5,7 @@
       "subregions": [
 
         { "name": "Hidell Plains",
+          "abbrev": "HP-HP",
           "location": { "x": 202, "y": 278 },
           "level": 1,
           "monsters": [
@@ -77,6 +78,7 @@
           ]},
 
         { "name": "Roaring Demon Bridge",
+          "abbrev": "HP-RDB",
           "location": { "x": 220, "y": 300 },
           "level": 8,
           "monsters": [
@@ -89,6 +91,7 @@
           ]},
 
         { "name": "Bloodwater Bank",
+          "abbrev": "HP-BB",
           "location": { "x": 213, "y": 280 },
           "level": 21,
           "monsters": [
@@ -101,6 +104,7 @@
           ]},
 
         { "name": "The Black Wolves' Hideout",
+          "abbrev": "HP-TBWH",
           "location": { "x": 243, "y": 299 },
           "level": 24,
           "monsters": [
@@ -110,12 +114,14 @@
           ]},
 
         { "name": "Blade Scarred Path",
+          "abbrev": "HP-BSP",
           "location": { "x": 183, "y": 301 },
           "level": 57,
           "monsters": [
           ]},
 
         { "name": "Abandoned House Cellar",
+          "abbrev": "HP-AHC",
           "location": { "x": 196, "y": 300 },
           "level": 4,
           "monsters": [
@@ -125,6 +131,7 @@
           ]},
 
         { "name": "Tel's Withered Well",
+          "abbrev": "HP-TWW",
           "location": { "x": 205, "y": 305 },
           "level": 5,
           "monsters": [
@@ -137,6 +144,7 @@
           ]},
 
         { "name": "Hunter's Secret Passage",
+          "abbrev": "HP-HSP",
           "location": { "x": 195, "y": 300 },
           "level": 5,
           "monsters": [
@@ -155,6 +163,7 @@
           ]},
 
         { "name": "Abandoned Well on Hidell Road",
+          "abbrev": "HP-AWHR",
           "location": { "x": 190, "y": 261 },
           "level": 6,
           "monsters": [
@@ -167,6 +176,7 @@
           ]},
 
         { "name": "Small Cave Tombs",
+          "abbrev": "HP-SCT",
           "location": { "x": 207, "y": 254 },
           "level": 10,
           "monsters": [
@@ -182,6 +192,7 @@
           ]},
 
         { "name": "Hidell Catacombs",
+          "abbrev": "HP-HC",
           "location": { "x": 229, "y": 307 },
           "level": 13,
           "monsters": [
@@ -212,6 +223,7 @@
           ]},
 
         { "name": "Plains Abandoned House Cellar",
+          "abbrev": "HP-PAHC",
           "location": { "x": 235, "y": 282 },
           "level": 14,
           "monsters": [
@@ -233,6 +245,7 @@
           ]},
 
         { "name": "The Ark",
+          "abbrev": "HP-TA",
           "location": { "x": 184, "y": 310 },
           "level": 16,
           "monsters": [
@@ -266,6 +279,7 @@
           ]},
 
         { "name": "Blocked Passage",
+          "abbrev": "HP-BP",
           "location": { "x": "?", "y": "?" },
           "level": 18,
           "monsters": [
@@ -299,6 +313,7 @@
           ]},
 
         { "name": "Hidell Catacombs Depths",
+          "abbrev": "HP-HCD",
           "location": { "x": 229, "y": 307 },
           "level": 28,
           "monsters": [
@@ -326,6 +341,7 @@
           ]},
 
         { "name": "Hidell Catacombs Innermost Depths",
+          "abbrev": "HP-HCID",
           "location": { "x": 229, "y": 307 },
           "level": 30,
           "monsters": [
@@ -353,6 +369,7 @@
           ]},
 
         { "name": "The Ark's Lower Level",
+          "abbrev": "HP-TALL",
           "location": { "x": 184, "y": 310 },
           "level": 57,
           "monsters": [

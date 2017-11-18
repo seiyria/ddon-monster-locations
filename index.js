@@ -21,9 +21,9 @@ function formatData(data) {
         .map(({ name, subregions }) => {
             var regionName = name;
 
-            return _.map(subregions, ({ name, location, level, monsters }) => {
+            return _.map(subregions, ({ name, location, level, abbrev, monsters }) => {
 
-                var regionInfo = { name, location, level };
+                var regionInfo = { name, location, level, abbrev };
 
                 var sumName = name === regionName ? name : regionName + ' - ' + name;
 
@@ -31,7 +31,7 @@ function formatData(data) {
                     regionName: sumName  + ' ~ ' + 'Lv. ' + level,
                     monsterInfo: _.sortBy(_.map(monsters, ({ name, level, timePeriod, events, coordinates }) => {
                         return {
-                            name: name + ' ~ Lv. ' + level,
+                            name: name + ' ~ Lv. ' + level + ' (' + abbrev + ')',
                             data: {
                                 name, level, timePeriod, events, coordinates
                             },
@@ -59,7 +59,9 @@ function loadPreviousMonsters() {
             .split('~')
             .join(' ~ ')
             .split('Lv')
-            .join('Lv. ');
+            .join('Lv. ')
+            .split('(')
+            .join(' (');
 
         var monsterObj = _(vue.allMonsters)
             .map('monsterInfo')
@@ -81,6 +83,8 @@ function updateWindowHash() {
             .join('~')
             .split('Lv. ')
             .join('Lv')
+            .split(' (')
+            .join('(')
         )
         .join('|');
 
