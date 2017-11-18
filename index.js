@@ -55,16 +55,19 @@ function loadPreviousMonsters() {
     if(!searchNames || !searchNames.length) return;
 
     searchNames.forEach(searchName => {
+        var realSearchName = searchName
+            .split('~')
+            .join(' ~ ')
+            .split('Lv.')
+            .join('Lv. ');
+
         var monsterObj = _(vue.allMonsters)
             .map('monsterInfo')
             .flattenDeep()
-            .filter({ name: searchName })
+            .filter({ name: realSearchName })
             .value()[0];
 
-        if(!monsterObj) {
-            window.location.hash = '';
-            return;
-        }
+        if(!monsterObj) return;
 
         vue.currentMonsters.push(monsterObj);
     });
@@ -72,7 +75,15 @@ function loadPreviousMonsters() {
 }
 
 function updateWindowHash() {
-    var allMonsters = vue.currentMonsters.map(x => x.name).join('|');
+    var allMonsters = vue.currentMonsters
+        .map(x => x.name
+            .split(' ~ ')
+            .join('~')
+            .split('Lv. ')
+            .join('Lv.')
+        )
+        .join('|');
+
     window.location.hash = '#' + allMonsters;
 }
 
