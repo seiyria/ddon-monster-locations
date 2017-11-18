@@ -58,7 +58,7 @@ function loadPreviousMonsters() {
         var realSearchName = searchName
             .split('~')
             .join(' ~ ')
-            .split('Lv.')
+            .split('Lv')
             .join('Lv. ');
 
         var monsterObj = _(vue.allMonsters)
@@ -80,7 +80,7 @@ function updateWindowHash() {
             .split(' ~ ')
             .join('~')
             .split('Lv. ')
-            .join('Lv.')
+            .join('Lv')
         )
         .join('|');
 
