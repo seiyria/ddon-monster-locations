@@ -1617,7 +1617,9 @@ regions:
       x: 220
       y: 500
     level: 63
-    monsters: []
+    monsters:
+    - name: Figure Fluctuating in the Mist
+      level: 63
 
   - name: Forest Ruins Cellar
     abbrev: MG-FRC
@@ -1710,7 +1712,31 @@ regions:
       x: 229
       y: 493
     level: 63
-    monsters: []
+    monsters:
+    - name: Snow Harpy
+      level: 63
+    - name: Mist Fighter
+      level: 63
+    - name: Mist Hunter
+      level: 63
+    - name: Mist Sorcerer
+      level: 63
+    - name: Brute Ape
+      level: 63
+    - name: Silver Roar
+      level: 63
+    - name: Mist Drake
+      level: 63
+    - name: Rabbit
+      level: 63
+    - name: Buck
+      level: 63
+    - name: Pig
+      level: 63
+    - name: Piglet
+      level: 63
+    - name: Spider
+      level: 63
 
 - name: Deenan Woods
   subregions:
@@ -1788,7 +1814,9 @@ regions:
       x: 240
       y: 523
     level: 45
-    monsters: []
+    monsters:
+    - name: Wandering Spirit of the Spring
+      level: 45
 
   - name: Big Tree Dell
     abbrev: DW-BTD
@@ -1796,7 +1824,9 @@ regions:
       x: 261
       y: 516
     level: 68
-    monsters: []
+    monsters:
+    - name: Heretic Ent
+      level: 68
 
   - name: Sunset Terrace
     abbrev: DW-ST
@@ -2011,7 +2041,37 @@ regions:
       x: 315
       y: 520
     level: 45
-    monsters: []
+    monsters:
+    - name: Direwolf
+      level: 45
+    - name: Snow Harpy
+      level: 45
+    - name: Blob
+      level: 45
+    - name: Forest Goblin Fighter
+      level: 45
+    - name: Sling Forest Goblin
+      level: 45
+    - name: Cyclops
+      level: 45
+    - name: Colossus
+      level: 45
+    - name: Ent
+      level: 45
+    - name: Troll
+      level: 45
+    - name: Mole Troll
+      level: 45
+    - name: Griffin
+      level: 45
+    - name: Sphinx
+      level: 45
+    - name: Ogre
+      level: 45
+    - name: Silver Roar
+      level: 45
+    - name: Skeleton Mage
+      level: 45
 
   - name: Heavenly Terrace
     areaLevel: 13
@@ -2021,7 +2081,19 @@ regions:
       x: 257
       y: 523
     level: 68
-    monsters: []
+    monsters:
+    - name: Strix
+      level: 68
+    - name: Forest Goblin Fighter
+      level: 68
+    - name: Maneater
+      level: 68
+    - name: Ent
+      level: 68
+    - name: Wyrm
+      level: 68
+    - name: Spider
+      level: 68
 
 - name: Betland Plains
   subregions:
@@ -2112,7 +2184,11 @@ regions:
       x: 194
       y: 185
     level: 63
-    monsters: []
+    monsters:
+    - name: Disturbed Gargoyle
+      level: 63
+    - name: Colossus Patrol
+      level: 38
 
   - name: Knights' Old Route
     abbrev: BP-LCSG
@@ -2259,7 +2335,13 @@ regions:
       x: ???
       y: ???
     level: 45
-    monsters: []
+    monsters:
+    - name: Wolves of Shadows
+      level: 45
+    - name: Troops of Shadows
+      level: 45
+    - name: War Demon's Lieutenant
+      level: 45
 
   - name: Penitentary
     areaLevel: 13
@@ -2269,7 +2351,29 @@ regions:
       x: 204
       y: 185
     level: 63
-    monsters: []
+    monsters:
+    - name: Dark Skeleton
+      level: 63
+    - name: Dark Skeleton Brute
+      level: 63
+    - name: Eliminator
+      level: 63
+    - name: Shadow Harpy
+      level: 63
+    - name: Dim Slime
+      level: 63
+    - name: Shadow Goblin
+      level: 63
+    - name: Shadow Goblin Fighter
+      level: 63
+    - name: Shadow Chimera
+      level: 63
+    - name: Empress Ghost
+      level: 63
+    - name: Giant Rat
+      level: 63
+    - name: Skeleton Mage
+      level: 63
 
 - name: Northern Betland Plains
   subregions:
@@ -2382,7 +2486,11 @@ regions:
       x: 108
       y: 122
     level: 65
-    monsters: []
+    monsters:
+    - name: Orc Bringer
+      level: 65
+    - name: Infection Resisting War Demon
+      level: 65
 
   - name: Knights' Old Storehouse
     abbrev: NBP-KOS
@@ -2517,7 +2625,23 @@ regions:
       x: 108
       y: 122
     level: 65
-    monsters: []
+    monsters:
+    - name: Wolf
+      level: 65
+    - name: Infected Direwolf
+      level: 65
+    - name: Manticore
+      level: 65
+    - name: Ghoul
+      level: 65
+    - name: Orc Banger
+      level: 65
+    - name: Infected Orc Soldier
+      level: 65
+    - name: Infected Orc Aimer
+      level: 65
+    - name: Infected Orc Banger
+      level: 65
 
 - name: Eastern Zandora
   subregions:
@@ -2613,7 +2737,11 @@ regions:
       x: 407
       y: 126
     level: 56
-    monsters: []
+    monsters:
+    - name: Tamer Barbarian
+      level: 55
+    - name: Tamed Cockatrice
+      level: 56
 
   - name: Garden of Curses
     abbrev: EZ-GOC
@@ -2621,7 +2749,11 @@ regions:
       x: 402
       y: 154
     level: 57
-    monsters: []
+    monsters:
+    - name: Shrine Guard
+      level: 57
+    - name: ???
+      level: 57
 
   - name: Weeping Corpse Ground
     abbrev: EZ-WCG
@@ -2629,7 +2761,9 @@ regions:
       x: 380
       y: 142
     level: 65
-    monsters: []
+    monsters:
+    - name: Hollow Knight
+      level: 65
 
   - name: Temple of Purification: South Chamber
     abbrev: EZ-TOPSC
@@ -2742,7 +2876,23 @@ regions:
       x: 335
       y: 138
     level: 52
-    monsters: []
+    monsters:
+    - name: Grimwarg
+      level: 52
+    - name: Skeleton Sorcerer
+      level: 52
+    - name: Ghost Mail
+      level: 52
+    - name: Sulfur Saurian
+      level: 52
+    - name: Sludgeman
+      level: 52
+    - name: Ooze
+      level: 52
+    - name: Glutton Ooze
+      level: 52
+    - name: Cellar Cave Ghoul
+      level: 52
 
   - name: Dead Lord's Labyrinth
     areaLevel: 10
@@ -2751,7 +2901,55 @@ regions:
       x: 383
       y: 153
     level: 58
-    monsters: []
+    monsters:
+    - name: Skeleton Knight
+      level: 56
+    - name: Living Armor
+      level: 57
+    - name: Skeleton Mage
+      level: 56
+    - name: Skeleton Sorcerer
+      level: 56
+    - name: Ghost Mail
+      level: 56
+    - name: Alchemized Skeleton
+      level: 57
+    - name: Accursed Guard
+      level: 56
+    - name: Undead
+      level: 56
+    - name: Warrior Undead
+      level: 56
+    - name: Mudman
+      level: 57
+    - name: Sludgeman
+      level: 57
+    - name: Frost Corpse Punisher
+      level: 56
+    - name: Frost Corpse Torturer
+      level: 56
+    - name: Shadow Harpy
+      level: 57
+    - name: Geo Golem
+      level: 57
+    - name: Chimera
+      level: 58
+    - name: Crystal Eye
+      level: 57
+    - name: Ruby Eye
+      level: 57
+    - name: Lapis Eye
+      level: 57
+    - name: Emerald Eye
+      level: 57
+    - name: Alchemy Eye
+      level: 57
+    - name: Wight
+      level: 57
+    - name: Witch
+      level: 57
+    - name: Empress Ghost
+      level: 58
 
   - name: Mysterious Mausoleum
     areaLevel: 13
@@ -2761,7 +2959,27 @@ regions:
       x: 386
       y: 146
     level: 65
-    monsters: []
+    monsters:
+    - name: Grimwarg
+      level: 65
+    - name: Skeleton Mage
+      level: 65
+    - name: Death Knight
+      level: 65
+    - name: Ghost Mail
+      level: 65
+    - name: Dark Skeleton
+      level: 65
+    - name: Dark Skeleton Brute
+      level: 65
+    - name: Dark Corpse Torturer
+      level: 65
+    - name: Acid Blob
+      level: 65
+    - name: Empress Ghost
+      level: 65
+    - name: Ghost
+      level: 65
 
 - name: Zandora Wastelands
   subregions:
@@ -3027,7 +3245,11 @@ regions:
       x: 41
       y: 167
     level: 51
-    monsters: []
+    monsters:
+    - name: Synthetic Alchemized Goblin
+      level: 50
+    - name: Synthetic Eye
+      level: 51
 
   - name: An Alchemist's Home
     areaLevel: 2
@@ -3073,7 +3295,11 @@ regions:
       x: 71
       y: 148
     level: 57
-    monsters: []
+    monsters:
+    - name: Mergan Engineer
+      level: 56
+    - name: Giga Machina Custom
+      level: 56
 
   - name: Mergan Alchemdia
     abbrev: AL-MA
@@ -3081,7 +3307,9 @@ regions:
       x: 107
       y: 78
     level: 60
-    monsters: []
+    monsters:
+    - name: Clone Zuhl
+      level: 60
 
   - name: Mergoda Ruins: Lower Ruins
     abbrev: MR-MRLR
