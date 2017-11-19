@@ -2022,3 +2022,499 @@ regions:
       y: 523
     level: 68
     monsters: []
+
+- name: Betland Plains
+  subregions:
+
+  - name: Betland Plains
+    abbrev: BP-BP
+    location:
+      x: 236
+      y: 210
+    level: 35
+    monsters:
+    - name: Hobgoblin Fighter
+      level: 35
+      timePeriod: day
+    - name: Sling Hobgoblin
+      level: 35
+      timePeriod: day
+    - name: Direwolf
+      level: 34
+    - name: Grimwarg
+      level: 33
+    - name: Skeleton Knight
+      level: 35
+      timePeriod: night
+    - name: Rock Saurian
+      level: 36
+    - name: Blue Newt
+      level: 34
+    - name: Snow Harpy
+      level: 34
+    - name: Worm
+      level: 28
+    - name: Goblin Bomber
+      level: 34
+      timePeriod: day
+    - name: Killer Bee
+      level: 33
+    - name: Ogre
+      level: 36
+    - name: Orc Soldier
+      level: 35
+    - name: Orc Aimer
+      level: 35
+    - name: Orc Banger
+      level: 35
+    - name: Skeleton Mage
+      level: 35
+
+  - name: Lakeside Ruins
+    abbrev: BP-LR
+    location:
+      x: 306
+      y: 206
+    level: 39
+    monsters:
+    - name: Gowan the Colossus
+      level: 39
+
+  - name: Betland Bridge
+    abbrev: BP-BB
+    location:
+      x: 189
+      y: 190
+    level: 40
+    monsters:
+    - name: Colossus Patrol
+      level: 38
+    - name: Odd's Elite
+      level: 37
+    - name: Odd the Shield-Breaker
+      level: 40
+
+  - name: Lake Cera Ship Graveyard
+    abbrev: BP-LCSG
+    location:
+      x: 261
+      y: 144
+    level: 43
+    monsters:
+    - name: Lake Newt
+      level: 43
+    - name: Water Dragon of Cellar Lake
+      level: 43
+
+  - name: Wispy Wasteland
+    abbrev: BP-WW
+    location:
+      x: 194
+      y: 185
+    level: 63
+    monsters: []
+
+  - name: Knights' Old Route
+    abbrev: BP-LCSG
+    location:
+      x: 234
+      y: 219
+    level: 36
+    monsters:
+    - name: Skeleton Knight
+      level: 36
+    - name: Stout Undead
+      level: 36
+    - name: Sword Undead
+      level: 36
+    - name: Worm
+      level: 32
+
+  - name: Ruins Cellar
+    abbrev: BP-RC
+    location:
+      x: 261
+      y: 229
+    level: 37
+    monsters:
+    - name: Hobgoblin Leader
+      level: 36
+    - name: Sling Hobgoblin
+      level: 35
+    - name: Orc Soldier
+      level: 37
+    - name: Orc Banger
+      level: 37
+
+  - name: Temple of Purification
+    abbrev: BP-TOP
+    location:
+      x: 267
+      y: 200
+    level: 38
+    monsters:
+    - name: Skeleton Knight
+      level: 38
+    - name: Blue Newt
+      level: 38
+    - name: Worm
+      level: 35
+    - name: Ooze
+      level: 37
+    - name: Glutton Ooze
+      level: 38
+    - name: Skeleton Mage
+      level: 38
+    - name: Skeleton Sorcerer
+      level: 38
+
+  - name: Dry Underground Stores
+    abbrev: BP-DUS
+    location:
+      x: 243
+      y: 191
+    level: 38
+    monsters:
+    - name: Orc Aimer
+      level: 38
+    - name: Orc Banger
+      level: 38
+    - name: Giant Rat
+      level: 15
+
+  - name: Lakeside Cellar
+    abbrev: BP-LC
+    location:
+      x: 262
+      y: 158
+    level: 39
+    monsters:
+    - name: Hobgoblin Fighter
+      level: 38
+    - name: Hobgoblin Leader
+      level: 38
+    - name: Sling Hobgoblin
+      level: 38
+    - name: Grimwarg
+      level: 38
+
+  - name: Groaning Old Well
+    abbrev: BP-GOW
+    location:
+      x: 185
+      y: 192
+    level: 40
+    monsters:
+    - name: Skeleton Sorcerer
+      level: 38
+    - name: Rock Saurian
+      level: 38
+
+  - name: Betland Cemetary
+    areaLevel: 4
+    abbrev: BP-BC
+    location:
+      x: 232
+      y: 193
+    level: 40
+    monsters:
+    - name: Grimwarg
+      level: 38
+    - name: Skeleton Knight
+      level: 38
+    - name: Skeleton Mage
+      level: 38
+    - name: Sword Undead
+      level: 38
+    - name: Mudman
+      level: 38
+    - name: Corpse-Eating Troll
+      level: 40
+    - name: Skeleton Sorcerer
+      level: 38
+
+  - name: Foul Water Channel
+    areaLevel: 8
+    abbrev: BP-FWC
+    location:
+      x: 267
+      y: 200
+    level: 42
+    monsters:
+    - name: Blue Newt
+      level: 42
+    - name: Sword Undead
+      level: 42
+    - name: Frost Corpse Punisher
+      level: 42
+    - name: Worm
+      level: 40
+    - name: Ogre
+      level: 42
+
+  - name: War Demons' Hideout
+    areaLevel: 9
+    abbrev: BP-WDH
+    location:
+      x: ???
+      y: ???
+    level: 45
+    monsters: []
+
+  - name: Penitentary
+    areaLevel: 13
+    ir: 20
+    abbrev: BP-P
+    location:
+      x: 204
+      y: 185
+    level: 63
+    monsters: []
+
+- name: Northern Betland Plains
+  subregions:
+
+  - name: Northern Betland Plains
+    abbrev: NBP-NBP
+    location:
+      x: 146
+      y: 165
+    level: 42
+    monsters:
+    - name: Hobgoblin
+      level: 42
+      timePeriod: day
+    - name: Hobgoblin Fighter
+      level: 42
+      timePeriod: day
+    - name: Sling Hobgoblin
+      level: 42
+      timePeriod: day
+    - name: Hobgoblin Leader
+      level: 43
+      timePeriod: day
+    - name: Grimwarg
+      level: 42
+    - name: Skeleton Knight
+      level: 44
+      timePeriod: night
+    - name: Skeleton Mage
+      level: 44
+      timePeriod: night
+    - name: Blue Newt
+      level: 43
+    - name: Snow Harpy
+      level: 42
+    - name: Worm
+      level: 40
+    - name: Blob
+      level: 42
+    - name: Mist Fighter
+      level: 42
+    - name: Mist Hunter
+      level: 42
+    - name: Mist Sorcerer
+      level: 42
+    - name: Armored Cyclops
+      level: 44
+    - name: Chimera
+      level: 43
+    - name: Orc Battler
+      level: 43
+    - name: Orc Bringer
+      level: 43
+    - name: Orc Trooper
+      level: 43
+    - name: Rabbit
+      level: 5
+    - name: Buck
+      level: 20
+    - name: Doe
+      level: 20
+    - name: Boar
+      level: 10
+    - name: Pig
+      level: 10
+    - name: Piglet
+      level: 5
+
+  - name: Fortress Front: Barbed Line
+    abbrev: NBP-FFBL
+    location:
+      x: 108
+      y: 134
+    level: 45
+    monsters:
+    - name: Assault Colossus
+      level: 43
+    - name: Orc Spy
+      level: 43
+    - name: Battle-Ready Platoon Leader
+      level: 45
+
+  - name: Demon Dog Kennel
+    abbrev: NBP-DDK
+    location:
+      x: 184
+      y: 141
+    level: 48
+    monsters:
+    - name: ???
+      level: 46
+    - name: ???
+      level: 46
+    - name: ???
+      level: 48
+
+  - name: Gardnox Patrol Area
+    abbrev: NBP-GPA
+    location:
+      x: 150
+      y: 139
+    level: 52
+    monsters:
+    - name: Bifang Military Dragon Behemoth
+      level: 52
+
+  - name: War Demons' Encampment
+    abbrev: NBP-WDE
+    location:
+      x: 108
+      y: 122
+    level: 65
+    monsters: []
+
+  - name: Knights' Old Storehouse
+    abbrev: NBP-KOS
+    location:
+      x: 158
+      y: 141
+    level: 43
+    monsters:
+    - name: Mudman
+      level: 43
+    - name: Slime
+      level: 43
+    - name: Oooze
+      level: 43
+    - name: Orc Battler
+      level: 43
+
+  - name: Gardnox Fortress
+    abbrev: NBP-GF
+    location:
+      x: 108
+      y: 122
+    level: 44
+    monsters:
+    - name: Hobgoblin
+      level: 44
+    - name: Hobgoblin Leader
+      level: 44
+    - name: Grimwarg
+      level: 44
+    - name: Stout Undead
+      level: 44
+    - name: Snow Harpy
+      level: 44
+    - name: Worm
+      level: 43
+    - name: Blob
+      level: 44
+    - name: Goblin Bomber
+      level: 44
+    - name: Armored Cyclops
+      level: 44
+    - name: Orc Battler
+      level: 44
+    - name: Orc Bringer
+      level: 44
+    - name: Orc Trooper
+      level: 44
+    - name: Captain Orc
+      level: 44
+
+  - name: Decaying Well
+    abbrev: NBP-DW
+    location:
+      x: 161
+      y: 127
+    level: 44
+    monsters:
+    - name: Blue Newt
+      level: 44
+
+  - name: Betland Underground Passage
+    areaLevel: 2
+    abbrev: NBP-DW
+    location:
+      x: 161
+      y: 127
+    level: 44
+    monsters:
+    - name: Orc Banger
+      level: 44
+    - name: Orc Battler
+      level: 44
+    - name: Orc Bringer
+      level: 44
+    - name: Orc Trooper
+      level: 44
+    - name: Captain Orc
+      level: 44
+    - name: Giant Rat
+      level: 20
+
+  - name: Underground Crypt
+    areaLevel: 4
+    abbrev: NBP-UC
+    location:
+      x: 112
+      y: 167
+    level: 45
+    monsters:
+    - name: Skeleton
+      level: 45
+    - name: Skeleton Knight
+      level: 45
+    - name: Skeleton Sorcerer
+      level: 45
+    - name: Stout Undead
+      level: 45
+    - name: Frost Corpse Punisher
+      level: 45
+
+  - name: Tegor Flood Control Channel
+    areaLevel: 9
+    abbrev: NBP-TFCC
+    location:
+      x: 166
+      y: 94
+    level: 49
+    monsters:
+    - name: Skeleton Mage
+      level: 49
+    - name: Skeleton Knight
+      level: 49
+    - name: Sword Undead
+      level: 49
+    - name: Tegol the Immortal
+      level: 49
+    - name: Blob
+      level: 49
+    - name: Troll
+      level: 49
+    - name: Chimera
+      level: 49
+    - name: Pit Ghoul
+      level: 49
+
+  - name: Gardnox Wastewater Tunnel
+    areaLevel: 14
+    ir: 30
+    abbrev: NBP-GWT
+    location:
+      x: 108
+      y: 122
+    level: 65
+    monsters: []
