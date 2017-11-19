@@ -1,3 +1,4 @@
+
 regions:
 - name: Hidell Plains
   subregions:
@@ -3367,4 +3368,24 @@ regions:
       x: 85
       y: 93
     level: 68
-    monsters: []
+    monsters:
+    - name: Skull Lord
+      level: 68
+    - name: Frost Skeleton
+      level: 68
+    - name: Mergan Fighter
+      level: 68
+    - name: Mergan Mage
+      level: 68
+    - name: Mergan Element Archer
+      level: 68
+    - name: Alchemized Goblin
+      level: 68
+    - name: Goliath
+      level: 68
+    - name: Alchemy Eye
+      level: 68
+    - name: Frost Machina
+      level: 68
+    - name: Skeleton Mage
+      level: 68
