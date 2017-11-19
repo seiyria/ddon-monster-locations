@@ -2733,7 +2733,9 @@ regions:
       x: 396
       y: 135
     level: 47
-    monsters: []
+    monsters:
+    - name: Torrid Geo Golem
+      level: 47
 
   - name: Zandora Lighthouse
     abbrev: EZ-ZL
