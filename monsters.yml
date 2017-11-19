@@ -156,6 +156,7 @@ regions:
       
 
   - name: Hunter's Secret Passage
+    areaLevel: 2
     abbrev: HP-HSP
     location:
       x: 195
@@ -207,6 +208,7 @@ regions:
       
 
   - name: Hidell Catacombs
+    areaLevel: 4
     abbrev: HP-HC
     location:
       x: 229
@@ -297,6 +299,7 @@ regions:
       
 
   - name: Blocked Passage
+    areaLevel: 6
     abbrev: HP-BP
     location:
       x: "?"
@@ -361,6 +364,7 @@ regions:
       
 
   - name: Hidell Catacombs Innermost Depths
+    areaLevel: 9
     abbrev: HP-HCID
     location:
       x: 229
@@ -390,6 +394,8 @@ regions:
       
 
   - name: The Ark's Lower Level
+    areaLevel: 13
+    ir: 15
     abbrev: HP-TALL
     location:
       x: 184
@@ -551,6 +557,7 @@ regions:
       level: 11
 
   - name: Seaside Cellar
+    areaLevel: 4
     abbrev: BC-SC
     location:
       x: 103
@@ -579,6 +586,7 @@ regions:
       level: 19
 
   - name: Roaring Tide Cave
+    areaLevel: 9
     abbrev: BC-RTC
     location:
       x: 116
@@ -587,6 +595,8 @@ regions:
     monsters: []
 
   - name: Moltova Ruins
+    areaLevel: 14
+    ir: 20
     abbrev: BC-MR
     location:
       x: 56
@@ -754,6 +764,7 @@ regions:
       level: 17
 
   - name: Lynwood Underground Waterway
+    areaLevel: 6
     abbrev: MF-LUW
     location:
       x: 225
@@ -778,6 +789,7 @@ regions:
       level: 19
 
   - name: Mysree Limestone Cave
+    areaLevel: 9
     abbrev: MF-MLC
     location:
       x: 228
@@ -858,9 +870,631 @@ regions:
       level: 60
 
   - name: Ancient Burial Mound
+    areaLevel: 14
+    ir: 20
     abbrev: MF-ABM
     location:
       x: 222
       y: 413
     level: 70
+    monsters: []
+
+- name: Volden Mines
+  subregions:
+
+  - name: Volden Mines
+    abbrev: VM-VM
+    location:
+      x: 325
+      y: 393
+    level: 19
+    monsters:
+    - name: Goblin
+      level: 18
+      timePeriod: day
+    - name: Sling Goblin
+      level: 18
+      timePeriod: day
+    - name: Hobgoblin
+      level: 19
+      timePeriod: day
+    - name: Hobgoblin Leader
+      level: 20
+      timePeriod: day
+    - name: Sling Hobgoblin
+      level: 19
+      timePeriod: day
+    - name: Direwolf
+      level: 21
+    - name: Skeleton Sorcerer
+      level: 21
+      timePeriod: night
+    - name: Rock Saurian
+      level: 22
+    - name: Sludgeman
+      level: 21
+    - name: Harpy
+      level: 20
+    - name: Snow Harpy
+      level: 23
+    - name: Rogue Fighter
+      level: 24
+    - name: Rogue Seeker
+      level: 23
+    - name: Rogue Hunter
+      level: 23
+    - name: Rogue Mage
+      level: 23
+    - name: Goblin Bomber
+      level: 22
+      timePeriod: day
+    - name: Griffin
+      level: 30
+    - name: Rabbit
+      level: 5
+    - name: Buck
+      level: 9
+    - name: Doe
+      level: 8
+    - name: Boar
+      level: 5
+
+  - name: Southern Wall Fissure
+    areaLevel: 2
+    abbrev: VM-SWF
+    location:
+      x: 314
+      y: 380
+    level: 24
+    monsters: []
+
+  - name: Mountainside Battlefield
+    abbrev: VM-MB
+    location:
+      x: 370
+      y: 377
+    level: 32
+    monsters: []
+
+  - name: Bandit Hideout
+    areaLevel: 8
+    abbrev: VM-BH
+    location:
+      x: 314
+      y: 397
+    level: 35
+    monsters: []
+
+  - name: The Giant Eagle's Treasure Hoard
+    abbrev: VM-TGETH
+    location:
+      x: 368
+      y: 358
+    level: 40
+    monsters: []
+
+  - name: Mines' Large Landing
+    abbrev: VM-MLL
+    location:
+      x: 382
+      y: 367
+    level: 63
+    monsters: []
+
+  - name: Kinoza Flood Control Channel
+    abbrev: VM-KFCC
+    location:
+      x: 387
+      y: 396
+    level: 21
+    monsters:
+    - name: Sling Goblin
+      level: 20
+    - name: Rock Saurian
+      level: 21
+    - name: Stout Undead
+      level: 21
+    - name: Spider
+      level: 16
+
+  - name: Volden Narrow Tunnels
+    areaLevel: 4
+    abbrev: VM-VNT
+    location:
+      x: 368
+      y: 376
+    level: 23
+    monsters:
+    - name: Hobgoblin Fighter
+      level: 23
+    - name: Hobgoblin Leader
+      level: 25
+    - name: Sling Hobgoblin
+      level: 23
+    - name: Skeleton Sorcerer
+      level: 23
+    - name: Stout Undead
+      level: 23
+    - name: Sludgeman
+      level: 23
+
+  - name: Fiend's Cavern
+    abbrev: VM-FC
+    location:
+      x: 348
+      y: 404
+    level: 26
+    monsters:
+    - name: Shield Goblin
+      level: 24
+    - name: Goblin Leader
+      level: 25
+    - name: Hobgoblin
+      level: 24
+    - name: Hobgoblin Leader
+      level: 25
+    - name: Sling Hobgoblin
+      level: 24
+    - name: Ogre
+      level: 26
+
+  - name: Miners' Secret Route
+    abbrev: VM-MSR
+    location:
+      x: 366
+      y: 368
+    level: 27
+    monsters:
+    - name: Direwolf
+      level: 26
+    - name: Rogue Fighter
+      level: 27
+    - name: Rogue Seeker
+      level: 27
+    - name: Rogue Hunter
+      level: 27
+    - name: Brute Ape
+      level: 26
+    - name: Giant Rat
+      level: 10
+
+  - name: Volden Large Tunnels
+    abbrev: VM-VLT
+    location:
+      x: 382
+      y: 367
+    level: 28
+    monsters: []
+
+  - name: Summit Chapel
+    abbrev: VM-SC
+    location:
+      x: 367
+      y: 359
+    level: 30
+    monsters:
+    - name: Skeleton Knight
+      level: 28
+    - name: Skeleton Sorcerer
+      level: 28
+    - name: Skeleton Leech
+      level: 20
+    - name: Skeleton Mage
+      level: 28
+
+  - name: Scorching Blocked Passage
+    areaLevel: 14
+    ir: 20
+    abbrev: VM-SBP
+    location:
+      x: 382
+      y: 367
+    level: 63
+    monsters: []
+
+- name: Dowe Valley
+  subregions:
+
+  - name: Dowe Valley
+    abbrev: DV-DV
+    location:
+      x: 297
+      y: 321
+    level: 28
+    monsters:
+    - name: Goblin
+      level: 27
+      timePeriod: day
+    - name: Hobgoblin
+      level: 28
+      timePeriod: day
+    - name: Hobgoblin Fighter
+      level: 29
+      timePeriod: day
+    - name: Hobgoblin Leader
+      level: 35
+      timePeriod: day
+    - name: Sling Hobgoblin
+      level: 29
+      timePeriod: day
+    - name: Direwolf
+      level: 28
+    - name: Sulfur Saurian
+      level: 27
+    - name: Skeleton
+      level: 29
+      timePeriod: night
+    - name: Skeleton Knight
+      level: 27
+      timePeriod: night
+    - name: Skeleton Mage
+      level: 28
+      timePeriod: night
+    - name: Skeleton Sorcerer
+      level: 30
+      timePeriod: night
+    - name: Undead
+      level: 28
+      timePeriod: night
+    - name: Stout Undead
+      level: 28
+      timePeriod: night
+    - name: Sword Undead
+      level: 28
+      timePeriod: night
+    - name: Snow Harpy
+      level: 27
+    - name: Worm
+      level: 22
+    - name: Rogue Fighter
+      level: 32
+    - name: Rogue Seeker
+      level: 31
+    - name: Rogue Healer
+      level: 32
+    - name: Rogue Mage
+      level: 33
+    - name: Goblin Bomber
+      level: 28
+      timePeriod: day
+    - name: Killer Bee
+      level: 27
+    - name: Ogre
+      level: 31
+    - name: Brute Ape
+      level: 28
+    - name: Buck
+      level: 10
+    - name: Doe
+      level: 10
+    - name: Ox
+      level: 10
+
+  - name: Dreed Watchtower
+    abbrev: DV-DW
+    location:
+      x: 304
+      y: 290
+    level: 31
+    monsters:
+    - name: Snow Gura Harpy
+      level: 30
+
+  - name: White Sands Riverbank
+    abbrev: DV-WSR
+    location:
+      x: 326
+      y: 312
+    level: 32
+    monsters:
+    - name: Sulfur Saurian Strange
+      level: 30
+    - name: Sulfur Tiger-Tail
+      level: 32
+    - name: Snow Harpy
+      level: 28
+
+  - name: The Songstress' Cliff Perch
+    abbrev: DV-TSCP
+    location:
+      x: 358
+      y: 300
+    level: 40
+    monsters: []
+
+  - name: Bowered Stone Statues
+    abbrev: DV-BSS
+    location:
+      x: 323
+      y: 323
+    level: 60
+    monsters: []
+
+  - name: Supply Store Ruins
+    abbrev: DV-SSR
+    location:
+      x: 317
+      y: 293
+    level: 28
+    monsters:
+    - name: Undead
+      level: 28
+    - name: Stout Undead
+      level: 28
+    - name: Sword Undead
+      level: 28
+
+  - name: Partly Dug Well
+    abbrev: DV-PDW
+    location:
+      x: 352
+      y: 300
+    level: 28
+    monsters:
+    - name: Sulfur Saurian
+      level: 28
+    - name: Stout Undead
+      level: 27
+    - name: Worm
+      level: 25
+    - name: Skeleton Mage
+      level: 28
+
+  - name: Wine Cellar Ruins
+    abbrev: DV-WCR
+    location:
+      x: 318
+      y: 306
+    level: 29
+    monsters:
+    - name: Hobgoblin Fighter
+      level: 29
+    - name: Hobgoblin Leader
+      level: 30
+    - name: Sling Hobgoblin
+      level: 29
+
+  - name: Sealed Old Well
+    abbrev: DV-SOW
+    location:
+      x: 318
+      y: 310
+    level: 30
+    monsters:
+    - name: Skeleton Knight
+      level: 30
+    - name: Skeleton Mage
+      level: 30
+    - name: Worm
+      level: 27
+
+  - name: Knights' Old Guardhouse
+    abbrev: DV-KOG
+    location:
+      x: 303
+      y: 288
+    level: 30
+    monsters:
+    - name: Skeleton Knight
+      level: 30
+    - name: Sword Undead
+      level: 30
+    - name: Worm
+      level: 20
+
+  - name: Cliff Tunnels
+    abbrev: DV-CT
+    location:
+      x: 352
+      y: 300
+    level: 31
+    monsters:
+    - name: Skeleton Mage
+      level: 30
+    - name: Stout Undead
+      level: 30
+    - name: Sword Undead
+      level: 30
+    - name: Rogue Seeker
+      level: 30
+    - name: Rogue Hunter
+      level: 30
+    - name: Goblin Bomber
+      level: 30
+
+  - name: Valley Chapel
+    abbrev: DV-VC
+    location:
+      x: 347
+      y: 281
+    level: 32
+    monsters:
+    - name: Skeleton
+      level: 32
+    - name: Skeleton Mage
+      level: 32
+    - name: Sword Undead
+      level: 32
+    - name: Giant Rat
+      level: 15
+
+  - name: Howling Wind Cave
+    areaLevel: 4
+    abbrev: DV-HWC
+    location:
+      x: 335
+      y: 289
+    level: 33
+    monsters:
+    - name: Direwolf
+      level: 32
+    - name: Harpy
+      level: 31
+    - name: Snow Harpy
+      level: 31
+    - name: Snoring Colossus
+      level: 33
+    - name: Troll
+      level: 33
+    - name: Giant Rat
+      level: 15
+
+  - name: Dreed Castle
+    abbrev: DV-DC
+    location:
+      x: 310
+      y: 326
+    level: 35
+    monsters:
+    - name: Goblin Leader
+      level: 36
+    - name: Hobgoblin Fighter
+      level: 35
+    - name: Hobgoblin Leader
+      level: 36
+    - name: Skeleton
+      level: 35
+    - name: Skeleton Knight
+      level: 35
+    - name: Snow Harpy
+      level: 35
+    - name: Worm
+      level: 32
+    - name: Goblin Bomber
+      level: 35
+    - name: Ogre
+      level: 36
+    - name: Skeleton Mage
+      level: 36
+
+  - name: Dreed Waterway Ruins
+    abbrev: DV-DWR
+    location:
+      x: 323
+      y: 307
+    level: 35
+    monsters:
+    - name: Sulfur Saurian
+      level: 35
+    - name: Slime
+      level: 33
+    - name: Deep Slime
+      level: 33
+    - name: Skeleton Sorcerer
+      level: 35
+
+  - name: Catacombs
+    areaLevel: 7
+    abbrev: DV-C
+    location:
+      x: 319
+      y: 321
+    level: 38
+    monsters: []
+
+  - name: Abandoned Underground Passage
+    abbrev: DV-AUP
+    location:
+      x: 299
+      y: 306
+    level: 38
+    monsters:
+    - name: Skeleton
+      level: 36
+    - name: Skeleton Knight
+      level: 38
+    - name: Skeleton Mage
+      level: 36
+    - name: Undead
+      level: 36
+    - name: Harpy
+      level: 38
+    - name: Leech
+      level: 30
+    - name: Rogue Fighter
+      level: 38
+    - name: Rogue Hunter
+      level: 38
+    - name: Rogue Healer
+      level: 38
+    - name: Rogue Defender
+      level: 38
+    - name: Rogue Mage
+      level: 38
+    - name: Ogre
+      level: 38
+    - name: Brute Ape
+      level: 38
+
+  - name: Knight's Depot Ruins
+    ir: 1
+    areaLevel: 2
+    abbrev: DV-KDR
+    location:
+      x: 276
+      y: 325
+    level: 62
+    monsters:
+    - name: Flame Skeleton
+      level: 62
+    - name: Flame Skeleton Brute
+      level: 62
+    - name: Sulfur Saurian
+      level: 62
+    - name: Giant Sulfur Saurian
+      level: 62
+    - name: Saurian Sage
+      level: 62
+    - name: Flame Corpse Punisher
+      level: 62
+    - name: Flame Corpse Torturer
+      level: 62
+    - name: Bolt Corpse Torturer
+      level: 62
+    - name: Armored Cyclops
+      level: 62
+
+  - name: Dreed Connecting Passage
+    ir: 15
+    abbrev: DV-DCP
+    location:
+      x: 310
+      y: 326
+    level: 62
+    monsters:
+    - name: Bolt Grimwarg
+      level: 62
+    - name: Skeleton Knight
+      level: 62
+    - name: Skull Lord
+      level: 62
+    - name: Undead
+      level: 62
+    - name: Warrior Undead
+      level: 62
+    - name: Eliminator
+      level: 62
+    - name: Mudman
+      level: 62
+    - name: Frost Corpse Punisher
+      level: 62
+    - name: Chimera
+      level: 62
+    - name: Nightmare
+      level: 62
+    - name: Wight
+      level: 62
+    - name: Witch
+      level: 62
+    - name: Spider
+      level: 62
+
+  - name: Forsaken Well
+    areaLevel: 13
+    ir: 35
+    abbrev: DV-FW
+    location:
+      x: 324
+      y: 325
+    level: 68
     monsters: []
