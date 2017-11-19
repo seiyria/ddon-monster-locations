@@ -78,12 +78,12 @@ function loadPreviousMonsters() {
         var monsterObj = _(vue.allMonsters)
             .map('monsterInfo')
             .flattenDeep()
-            .filter({ name: realSearchName })
-            .value()[0];
+            .filter(mon => _.includes(mon.name, realSearchName))
+            .value();
 
-        if(!monsterObj) return;
+        if(!monsterObj || !monsterObj.length) return;
 
-        vue.currentMonsters.push(monsterObj);
+        vue.currentMonsters.push(...monsterObj);
     });
 
 }
