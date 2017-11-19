@@ -1,0 +1,559 @@
+regions:
+- name: Hidell Plains
+  subregions:
+
+  - name: Hidell Plains
+    abbrev: HP-HP
+    location:
+      x: 202
+      y: 278
+    level: 1
+    monsters:
+    - name: Goblin
+      level: 1
+      timePeriod: day
+      events: []
+      coordinates: []
+    - name: Goblin Fighter
+      level: 2
+      timePeriod: day
+      events: []
+      coordinates: []
+    - name: Shield Goblin
+      level: 4
+      timePeriod: day
+      events: []
+      coordinates: []
+    - name: Sling Goblin
+      level: 1
+      timePeriod: day
+      events: []
+      coordinates: []
+    - name: Goblin Leader
+      level: 3
+      timePeriod: day
+      events: []
+      coordinates: []
+    - name: Wolf
+      level: 7
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Skeleton
+      level: 6
+      timePeriod: night
+      events: []
+      coordinates: []
+    - name: Saurian
+      level: 3
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Undead
+      level: 1
+      timePeriod: night
+      events: []
+      coordinates: []
+    - name: Rogue Fighter
+      level: 6
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Rogue Seeker
+      level: 6
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Rogue Hunter
+      level: 7
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Rogue Healer
+      level: 7
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Rogue Defender
+      level: 12
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Rogue Mage
+      level: 7
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Killer Bee
+      level: 1
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Brute Ape
+      level: 6
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Orc Soldier
+      level: 11
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Rabbit
+      level: 1
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Ox
+      level: 1
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Pig
+      level: 2
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Piglet
+      level: 1
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: Roaring Demon Bridge
+    abbrev: HP-RDB
+    location:
+      x: 220
+      y: 300
+    level: 8
+    monsters:
+    - name: Binsha's Henchman
+      level: 8
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Binsha the Bridge-Keeper
+      level: 2
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: Bloodwater Bank
+    abbrev: HP-BB
+    location:
+      x: 213
+      y: 280
+    level: 21
+    monsters:
+    - name: Saurian Variant
+      level: 19
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Gluttonous Giant Saurian
+      level: 21
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: The Black Wolves' Hideout
+    abbrev: HP-TBWH
+    location:
+      x: 243
+      y: 299
+    level: 24
+    monsters:
+    - name: Black Wolf Rogue
+      level: 25
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: Blade Scarred Path
+    abbrev: HP-BSP
+    location:
+      x: 183
+      y: 301
+    level: 57
+    monsters: []
+
+  - name: Abandoned House Cellar
+    abbrev: HP-AHC
+    location:
+      x: 196
+      y: 300
+    level: 4
+    monsters:
+    - name: Giant Rat
+      level: 3
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: Tel's Withered Well
+    abbrev: HP-TWW
+    location:
+      x: 205
+      y: 305
+    level: 5
+    monsters:
+    - name: Slime
+      level: 3
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Deep Slime
+      level: 6
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: Hunter's Secret Passage
+    abbrev: HP-HSP
+    location:
+      x: 195
+      y: 300
+    level: 5
+    monsters:
+    - name: Wolf
+      level: 3
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Rogue Fighter
+      level: 3
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Rogue Healer
+      level: 3
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Spider
+      level: 3
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: Abandoned Well on Hidell Road
+    abbrev: HP-AWHR
+    location:
+      x: 190
+      y: 261
+    level: 6
+    monsters:
+    - name: Giant Rat
+      level: 3
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Wolf
+      level: 6
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: Small Cave Tombs
+    abbrev: HP-SCT
+    location:
+      x: 207
+      y: 254
+    level: 10
+    monsters:
+    - name: Giant Rat
+      level: 3
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Undead
+      level: 10
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Skeleton
+      level: 11
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: Hidell Catacombs
+    abbrev: HP-HC
+    location:
+      x: 229
+      y: 307
+    level: 13
+    monsters:
+    - name: Undead
+      level: 12
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Skeleton
+      level: 12
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Skeleton Mage
+      level: 12
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Defiled Assistant Priest
+      level: 13
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Mudman
+      level: 12
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Worm
+      level: 10
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Deep Slime
+      level: 10
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Brute Ape
+      level: 12
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: Plains Abandoned House Cellar
+    abbrev: HP-PAHC
+    location:
+      x: 235
+      y: 282
+    level: 14
+    monsters:
+    - name: Goblin Fighter
+      level: 12
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Shield Goblin
+      level: 12
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Sling Goblin
+      level: 11
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Goblin Leader
+      level: 14
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Brute Ape
+      level: 13
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: The Ark
+    abbrev: HP-TA
+    location:
+      x: 184
+      y: 310
+    level: 16
+    monsters:
+    - name: Skeleton
+      level: 15
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Skeleton Mage
+      level: 15
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Skeleton Knight
+      level: 15
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Alchemized Skeleton
+      level: 15
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Ooze
+      level: 15
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Unspeakable Meat
+      level: 15
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Alchemized Goblin Fighter
+      level: 15
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Alchemized Sling Goblin
+      level: 15
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Alchemized Goblin
+      level: 15
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: Blocked Passage
+    abbrev: HP-BP
+    location:
+      x: "?"
+      y: "?"
+    level: 18
+    monsters:
+    - name: Undead
+      level: 17
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Stout Undead
+      level: 17
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Path-Guard Sling Goblin
+      level: 16
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Sling Hobgoblin
+      level: 18
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Hobgoblin Leader
+      level: 18
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Harpy
+      level: 17
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Worm
+      level: 16
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Slime
+      level: 17
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Path-Guard Cyclops
+      level: 18
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: Hidell Catacombs Depths
+    abbrev: HP-HCD
+    location:
+      x: 229
+      y: 307
+    level: 28
+    monsters:
+    - name: Sword Undead
+      level: 26
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Skeleton Knight
+      level: 27
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Skeleton Mage
+      level: 27
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Mudman
+      level: 27
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Grimwarg
+      level: 27
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Worm
+      level: 27
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Ogre
+      level: 28
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: Hidell Catacombs Innermost Depths
+    abbrev: HP-HCID
+    location:
+      x: 229
+      y: 307
+    level: 30
+    monsters:
+    - name: Skeleton Sorcerer
+      level: 29
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Grimwarg
+      level: 30
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Ooze
+      level: 29
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Glutton Ooze
+      level: 29
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Plague Apostle
+      level: 30
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Rock Saurian
+      level: 30
+      timePeriod: always
+      events: []
+      coordinates: []
+    - name: Menvili the Undead Priest
+      level: 30
+      timePeriod: always
+      events: []
+      coordinates: []
+
+  - name: The Ark's Lower Level
+    abbrev: HP-TALL
+    location:
+      x: 184
+      y: 310
+    level: 57
+    monsters: []

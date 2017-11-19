@@ -50,7 +50,7 @@ function loadPreviousMonsters() {
     var loadMonster = window.location.hash;
     if(!loadMonster) return;
 
-    var searchNames = loadMonster.substring(1).split('|');
+    var searchNames = decodeURIComponent(loadMonster.substring(1)).split('|');
 
     if(!searchNames || !searchNames.length) return;
 
@@ -88,11 +88,11 @@ function updateWindowHash() {
         )
         .join('|');
 
-    window.location.hash = '#' + allMonsters;
+    window.location.hash = '#' + encodeURIComponent(allMonsters);
 }
 
-axios.get('monsters.json')
+axios.get('monsters.yml')
     .then(res => {
-        vue.allMonsters = formatData(res.data);
+        vue.allMonsters = formatData(YAML.parse(res.data));
         loadPreviousMonsters();
     });
