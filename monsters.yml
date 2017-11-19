@@ -3519,8 +3519,11 @@ regions:
       x: 113
       y: 69
     level: 53
-    monsters: []
-
+    monsters:
+    - name: ???
+      level: 53
+    - name: ???
+      level: 53
   - name: Mergodan Residence
     abbrev: MR-MR
     location:
