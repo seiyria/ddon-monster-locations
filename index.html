@@ -35,7 +35,8 @@
     </nav>
 
     <main class="container mt-3" id="app">
-        <div v-cloak class="row">
+
+        <div v-cloak class="row mt-3">
             <div class="col col-9">
                 <multiselect
                     v-model="currentMonsters"
@@ -50,6 +51,7 @@
                     label="name"
                     placeholder="Search Creature by Name, Level..."
                     label="creature"
+                    @remove="updateHash"
                     @close="updateHash">
                 </multiselect>
             </div>
@@ -74,7 +76,7 @@
                     <div class="card-header">
                         {{ monster.name }}
                         <span class="float-right">
-                            {{ monster.regionData.name }} ~ Lv. {{ monster.regionData.level }} (Schedule: {{ monster.data.timePeriod }}, X: {{ monster.regionData.location.x }}, Y: {{ monster.regionData.location.y }})
+                            {{ monster.regionData.name }} ~ Lv. {{ monster.regionData.level }} (Schedule: {{ monster.data.timePeriod || 'always' }}, X: {{ monster.regionData.location.x }}, Y: {{ monster.regionData.location.y }})
                         </span>
                     </div>
                     <div v-if="!noExtraData">
@@ -100,6 +102,28 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div v-cloak class="row mt-3" v-if="currentMonsters.length === 0">
+            <div class="col">
+                <div class="alert alert-info">
+                    Select some monsters to generate a list of their locations.
+                </div>
+            </div>
+        </div>
+
+        <div v-cloak class="row mt-3" v-if="currentMonsters.length > 0 && neededZones.length > 0">
+            <div class="col">
+                <div class="alert alert-info">
+                    Hey! If you happen to have info on any of the following zones, please send a monster list to Seiyria#3457 on discord. Thanks!
+
+                    <br><br>
+
+                    <ul>
+                        <li v-for="zone in neededZones">{{ zone }}</li>
+                    </ul>
                 </div>
             </div>
         </div>
