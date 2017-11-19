@@ -1498,3 +1498,216 @@ regions:
       y: 325
     level: 68
     monsters: []
+
+- name: Mysree Grove
+  subregions:
+
+  - name: Mysree Grove
+    abbrev: MG-MG
+    location:
+      x: 236
+      y: 450
+    level: 33
+    monsters:
+    - name: Skeleton Knight
+      level: 20
+      timePeriod: night
+    - name: Skeleton Mage
+      level: 22
+      timePeriod: night
+    - name: Saurian
+      level: 21
+    - name: Giant Saurian
+      level: 23
+    - name: Blue Newt
+      level: 34
+    - name: Undead
+      level: 21
+      timePeriod: night
+    - name: Sword Undead
+      level: 21
+      timePeriod: night
+    - name: Mudman
+      level: 31
+    - name: Forest Goblin
+      level: 21
+      timePeriod: day
+    - name: Forest Goblin Fighter
+      level: 20
+      timePeriod: day
+    - name: Sling Forest Goblin
+      level: 21
+      timePeriod: day
+    - name: Killer Bee
+      level: 20
+    - name: Brute Ape
+      level: 31
+    - name: Buck
+      level: 13
+    - name: Doe
+      level: 13
+    - name: Boar
+      level: 10
+    - name: Spider
+      level: 20
+    - name: Skeleton Sorcerer
+      level: 32
+
+  - name: Poachers' Camp
+    abbrev: MG-PC
+    location:
+      x: 248
+      y: 447
+    level: 33
+    monsters:
+    - name: Poacher Guard
+      level: 33
+    - name: Shadow Poacher
+      level: 33
+
+  - name: Inias Wetlands
+    abbrev: MG-IW
+    location:
+      x: 231
+      y: 475
+    level: 35
+    monsters:
+    - name: Cobalt Newt
+      level: 35
+
+  - name: Lair of the Holy Beast
+    abbrev: MG-LOTHB
+    location:
+      x: 220
+      y: 508
+    level: 42
+    monsters:
+    - name: Direwolf
+      level: 42
+    - name: White Lion Albus
+      level: 42
+
+  - name: Nameless Deserted Village
+    abbrev: MG-NDV
+    location:
+      x: 258
+      y: 455
+    level: 42
+    monsters:
+    - name: Enlightened Undead
+      level: 42
+    - name: Wandering Undead
+      level: 42
+    - name: Forgotten Spectre
+      level: 42
+
+  - name: The Giant's Bed
+    abbrev: MG-TGB
+    location:
+      x: 232
+      y: 489
+    level: 43
+    monsters:
+    - name: Yoton the Returned
+      level: 43
+
+  - name: Deep Misty Woods
+    abbrev: MG-DMW
+    location:
+      x: 220
+      y: 500
+    level: 63
+    monsters: []
+
+  - name: Forest Ruins Cellar
+    abbrev: MG-FRC
+    location:
+      x: 242
+      y: 453
+    level: 35
+    monsters:
+    - name: Rogue Hunter
+      level: 35
+    - name: Rogue Healer
+      level: 36
+    - name: Forest Goblin Fighter
+      level: 36
+    - name: Sling Forest Goblin
+      level: 35
+
+  - name: Dark Green Terrace
+    abbrev: MG-DGT
+    location:
+      x: 225
+      y: 479
+    level: 35
+    monsters:
+    - name: Forest Goblin Fighter
+      level: 35
+    - name: Sling Forest Goblin
+      level: 35
+    - name: Killer Bee
+      level: 35
+    - name: Ent
+      level: 35
+    - name: Dread Ape
+      level: 35
+
+  - name: Sacred Spring Terrace
+    abbrev: MG-SST
+    location:
+      x: 220
+      y: 508
+    level: 38
+    monsters:
+    - name: Wolf
+      level: 36
+    - name: Rogue Fighter
+      level: 37
+    - name: Rogue Seeker
+      level: 37
+    - name: Rogue Heaker
+      level: 37
+    - name: Rogue Defender
+      level: 37
+    - name: Forest Goblin
+      level: 35
+    - name: Troll
+      level: 38
+    - name: Brute Ape
+      level: 37
+    - name: Rabbit
+      level: 15
+    - name: Spider
+      level: 16
+
+  - name: Greenleaf Terrace
+    areaLevel: 4
+    abbrev: MG-GT
+    location:
+      x: 258
+      y: 480
+    level: 40
+    monsters:
+    - name: Blue Newt
+      level: 40
+    - name: Harpy
+      level: 37
+    - name: Worm
+      level: 30
+    - name: Forest Goblin
+      level: 38
+    - name: Troll
+      level: 40
+    - name: ??? Griffin
+      level: 40
+
+  - name: Misty Illusion Terrace
+    areaLevel: 14
+    ir: 20
+    abbrev: MG-MIT
+    location:
+      x: 229
+      y: 493
+    level: 63
+    monsters: []
