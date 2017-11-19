@@ -129,7 +129,9 @@ regions:
       x: 183
       y: 301
     level: 57
-    monsters: []
+    monsters:
+    - name: Wandering Alchemized Skeleton
+      level: 57
 
   - name: Abandoned House Cellar
     abbrev: HP-AHC
@@ -405,7 +407,31 @@ regions:
       x: 184
       y: 310
     level: 57
-    monsters: []
+    monsters:
+    - name: Alchemized Wolf
+      level: 57
+    - name: Alchemized Skeleton
+      level: 57
+    - name: Alchemized Harpy
+      level: 57
+    - name: Leech
+      level: 57
+    - name: Blob
+      level: 57
+    - name: Alchemized Goblin
+      level: 57
+    - name: Alchemized Sling Goblin
+      level: 57
+    - name: Damned Goblin
+      level: 57
+    - name: Damned Goblin Fighter
+      level: 57
+    - name: Goliath
+      level: 57
+    - name: Alchemy Eye
+      level: 57
+    - name: Unspeakable Meat
+      level: 57
 
 - name: Breya Coast
   subregions:
@@ -526,15 +552,23 @@ regions:
       x: 124
       y: 344
     level: 23
-    monsters: []
+    monsters:
+    - name: Former Villager
+      level: 20
+    - name: Former Villager
+      level: 21
+    - name: Specture of Ruflow
+      level: 23
 
-  - name: Blue Claw Ranch
-    abbrev: BC-BCR
+  - name: Blue Claw Beach
+    abbrev: BC-BCB
     location:
       x: 111
       y: 352
     level: 27
-    monsters: []
+    monsters:
+    - name: Blue Claw Beach Armored Cyclops
+      level: 27
 
   - name: Rancid Haunt
     abbrev: BC-RH
@@ -542,7 +576,11 @@ regions:
       x: 56
       y: 310
     level: 60
-    monsters: []
+    monsters:
+    - name: Blue Newt
+      level: 60
+    - name: Spark Blue
+      level: 60
 
   - name: Lighthouse Old Well
     abbrev: BC-LOW
@@ -596,7 +634,27 @@ regions:
       x: 116
       y: 327
     level: 33
-    monsters: []
+    monsters:
+    - name: Hobgoblin Fighter
+      level: 30
+    - name: Hobgoblin Leader
+      level: 32
+    - name: Sling Hobgoblin
+      level: 30
+    - name: Saurian
+      level: 31
+    - name: Giant Saurian
+      level: 31
+    - name: Mudman
+      level: 30
+    - name: Harpy
+      level: 31
+    - name: Leech
+      level: 28
+    - name: Slime
+      level: 28
+    - name: Sea Dragon the Treasure Guardian
+      level: 33
 
   - name: Moltova Ruins
     areaLevel: 14
@@ -606,7 +664,27 @@ regions:
       x: 56
       y: 310
     level: 60
-    monsters: []
+    monsters:
+    - name: Bolt Grimwarg
+      level: 60
+    - name: Ghost Mail
+      level: 60
+    - name: Bolt Skeleton
+      level: 60
+    - name: Bolt Skeleton Brute
+      level: 60
+    - name: Blue Newt
+      level: 60
+    - name: Large Newt
+      level: 60
+    - name: Warrior Undead
+      level: 60
+    - name: Witch
+      level: 60
+    - name: Ghost
+      level: 60
+    - name: Lindwurm
+      level: 60
 
 - name: Mysree Forest
   subregions:
@@ -881,7 +959,47 @@ regions:
       x: 222
       y: 413
     level: 70
-    monsters: []
+    monsters:
+    - name: Shadow Wolf
+      level: 70
+    - name: Skeleton Knight
+      level: 70
+    - name: Skeleton Brute
+      level: 70
+    - name: Skeleton Mage
+      level: 70
+    - name: Death Knight
+      level: 70
+    - name: Ghost Mail
+      level: 70
+    - name: Dark Skeleton
+      level: 70
+    - name: Dark Skeleton Brute
+      level: 70
+    - name: Eliminator
+      level: 70
+    - name: Frost Corpse Punisher
+      level: 70
+    - name: Frost Corpse Torturer
+      level: 70
+    - name: Shadow Harpy
+      level: 70
+    - name: Worm
+      level: 60
+    - name: Shadow Goblin Fighter
+      level: 70
+    - name: Shadow Sling Goblin
+      level: 70
+    - name: Shadow Chimera
+      level: 70
+    - name: Manticore
+      level: 70
+    - name: Medusa
+      level: 70
+    - name: Ghost
+      level: 70
+    - name: Spider
+      level: 60
 
 - name: Volden Mines
   subregions:
@@ -950,7 +1068,31 @@ regions:
       x: 314
       y: 380
     level: 24
-    monsters: []
+    monsters:
+    - name: Shield Goblin
+      level: 24
+    - name: Goblin Leader
+      level: 25
+    - name: Skeleton Mage
+      level: 24
+    - name: Rock Saurian
+      level: 24
+    - name: Undead
+      level: 24
+    - name: Sword Undead
+      level: 24
+    - name: Sludgeman
+      level: 23
+    - name: Snow Harpy
+      level: 23
+    - name: Deep Slime
+      level: 24
+    - name: Goblin Bomber
+      level: 23
+    - name: Troll
+      level: 25
+    - name: Cave Ogre
+      level: 26
 
   - name: Mountainside Battlefield
     abbrev: VM-MB
@@ -958,7 +1100,9 @@ regions:
       x: 370
       y: 377
     level: 32
-    monsters: []
+    monsters:
+    - name: Tunnel Thief
+      level: 32
 
   - name: Bandit Hideout
     areaLevel: 8
@@ -967,7 +1111,15 @@ regions:
       x: 314
       y: 397
     level: 35
-    monsters: []
+    monsters:
+    - name: Tamed Direwolf
+      level: 34
+    - name: Badger Member
+      level: 35
+    - name: Badger Wolf Tamer
+      level: 35
+    - name: Piglet
+      level: 10
 
   - name: The Giant Eagle's Treasure Hoard
     abbrev: VM-TGETH
@@ -975,7 +1127,11 @@ regions:
       x: 368
       y: 358
     level: 40
-    monsters: []
+    monsters:
+    - name: Harpy Grave Robber
+      level: 32
+    - name: Treasure Seeking Griffon
+      level: 40
 
   - name: Mines' Large Landing
     abbrev: VM-MLL
@@ -983,7 +1139,9 @@ regions:
       x: 382
       y: 367
     level: 63
-    monsters: []
+    monsters:
+    - name: Skeleton Knight of the Tunnel
+      level: 63
 
   - name: Kinoza Flood Control Channel
     abbrev: VM-KFCC
@@ -1068,7 +1226,39 @@ regions:
       x: 382
       y: 367
     level: 28
-    monsters: []
+    monsters:
+    - name: Goblin
+      level: 26
+    - name: Goblin Fighter
+      level: 26
+    - name: Shield Goblin
+      level: 28
+    - name: Hobgoblin Fighter
+      level: 27
+    - name: Hobgoblin Leader
+      level: 28
+    - name: Sling Hobgoblin
+      level: 27
+    - name: Skeleton Knight
+      level: 27
+    - name: Skeleton Sorcerer
+      level: 28
+    - name: Rock Saurian
+      level: 27
+    - name: Stout Undead
+      level: 27
+    - name: Sword Undead
+      level: 27
+    - name: Sludgeman
+      level: 27
+    - name: Harpy
+      level: 26
+    - name: Goblin Bomber
+      level: 27
+    - name: Cyclops
+      level: 27
+    - name: Volden Banger Golem
+      level: 28
 
   - name: Summit Chapel
     abbrev: VM-SC
@@ -1094,7 +1284,21 @@ regions:
       x: 382
       y: 367
     level: 63
-    monsters: []
+    monsters:
+    - name: Skull Lord
+      level: 63
+    - name: Rock Saurian
+      level: 63
+    - name: Sludgeman
+      level: 63
+    - name: Snow Harpy
+      level: 63
+    - name: Oil Jelly
+      level: 63
+    - name: Colossus
+      level: 63
+    - name: Geo Golem
+      level: 63
 
 - name: Dowe Valley
   subregions:
@@ -1204,7 +1408,9 @@ regions:
       x: 358
       y: 300
     level: 40
-    monsters: []
+    monsters:
+    - name: Demon Songstress Lorelei
+      level: 40
 
   - name: Bowered Stone Statues
     abbrev: DV-BSS
@@ -1212,7 +1418,9 @@ regions:
       x: 323
       y: 323
     level: 60
-    monsters: []
+    monsters:
+    - name: Grove Statue Demon
+      level: 68
 
   - name: Supply Store Ruins
     abbrev: DV-SSR
@@ -1394,7 +1602,21 @@ regions:
       x: 319
       y: 321
     level: 38
-    monsters: []
+    monsters:
+    - name: Skeleton Knight
+      level: 36
+    - name: Sword Undead
+      level: 35
+    - name: Mudman
+      level: 37
+    - name: Worm
+      level: 33
+    - name: Catacombs Priest
+      level: 38
+    - name: Skeleton Mage
+      level: 36
+    - name: Skeleton Sorcerer
+      level: 38
 
   - name: Abandoned Underground Passage
     abbrev: DV-AUP
@@ -1501,7 +1723,25 @@ regions:
       x: 324
       y: 325
     level: 68
-    monsters: []
+    monsters:
+    - name: Sulfur Saurian
+      level: 68
+    - name: Giant Sulfur Saurian
+      level: 68
+    - name: Saurian Sage
+      level: 68
+    - name: Blue Newt
+      level: 68
+    - name: Large Newt
+      level: 68
+    - name: Gargoyle
+      level: 68
+    - name: Deep Slime
+      level: 68
+    - name: Ghoul
+      level: 68
+    - name: Medusa
+      level: 68
 
 - name: Mysree Grove
   subregions:
