@@ -2518,3 +2518,470 @@ regions:
       y: 122
     level: 65
     monsters: []
+
+- name: Eastern Zandora
+  subregions:
+
+  - name: Eastern Zandora
+    abbrev: EZ-EZ
+    location:
+      x: 348
+      y: 140
+    level: 46
+    monsters:
+    - name: Grimwarg
+      level: 46
+    - name: Damned Wolf
+      level: 45
+    - name: Skeleton Knight
+      level: 45
+      timePeriod: night
+    - name: Skeleton Warrior
+      level: 45
+      timePeriod: night
+    - name: Skeleton Sorcerer
+      level: 45
+      timePeriod: night
+    - name: Ghost Mail
+      level: 46
+    - name: Sulfur Saurian
+      level: 45
+    - name: Giant Sulfur Saurian
+      level: 46
+    - name: Sword Undead
+      level: 45
+    - name: Warrior Undead
+      level: 45
+    - name: Sludgeman
+      level: 46
+    - name: Frost Corpse Punisher
+      level: 45
+    - name: Harpy
+      level: 45
+    - name: Blob
+      level: 45
+    - name: Banded Fighter
+      level: 46
+    - name: Banded Seeker
+      level: 46
+    - name: Banded Hunter
+      level: 45
+    - name: Banded Defender
+      level: 45
+    - name: Banded Mage
+      level: 46
+    - name: Banded Warrior
+      level: 47
+    - name: Damned Goblin
+      level: 45
+    - name: Damned Sling Goblin
+      level: 45
+    - name: Damned Goblin Fighter
+      level: 45
+    - name: Damned Goblin
+      level: 45
+    - name: Witch
+      level: 46
+    - name: Ox
+      level: 35
+    - name: Boar
+      level: 30
+
+  - name: Odd Rock Valley
+    abbrev: EZ-ORV
+    location:
+      x: 355
+      y: 120
+    level: 46
+    monsters:
+    - name: Foul Earth Figure
+      level: 46
+    - name: Foul Meat Lump
+      level: 46
+
+  - name: East Zandora Ruins
+    abbrev: EZ-EZR
+    location:
+      x: 396
+      y: 135
+    level: 47
+    monsters: []
+
+  - name: Zandora Lighthouse
+    abbrev: EZ-ZL
+    location:
+      x: 407
+      y: 126
+    level: 56
+    monsters: []
+
+  - name: Garden of Curses
+    abbrev: EZ-GOC
+    location:
+      x: 402
+      y: 154
+    level: 57
+    monsters: []
+
+  - name: Weeping Corpse Ground
+    abbrev: EZ-WCG
+    location:
+      x: 380
+      y: 142
+    level: 65
+    monsters: []
+
+  - name: Temple of Purification: South Chamber
+    abbrev: EZ-TOPSC
+    location:
+      x: 335
+      y: 138
+    level: 46
+    monsters:
+    - name: Blue Newt
+      level: 45
+    - name: Harpy
+      level: 45
+    - name: Golem
+      level: 45
+
+  - name: Keening Well
+    abbrev: EZ-KW
+    location:
+      x: 356
+      y: 153
+    level: 46
+    monsters:
+    - name: Warrior Undead
+      level: 46
+    - name: Blob
+      level: 46
+    - name: Banded Fighter
+      level: 46
+
+  - name: East Zandora Ruins
+    abbrev: EZ-EZR2
+    location:
+      x: 396
+      y: 135
+    level: 47
+    monsters:
+    - name: Banded Seeker
+      level: 47
+    - name: Banded Healer
+      level: 47
+    - name: Cyclops
+      level: 47
+    - name: Armored Cyclops
+      level: 47
+
+  - name: Lighthouse Underground Stores
+    abbrev: EZ-LUS
+    location:
+      x: 207
+      y: 125
+    level: 48
+    monsters:
+    - name: Frost Corpse Torturer
+      level: 48
+    - name: Blob
+      level: 48
+
+  - name: Shrine of Resentment
+    abbrev: EZ-SOR
+    location:
+      x: 404
+      y: 155
+    level: 48
+    monsters:
+    - name: Skeleton Knight
+      level: 48
+    - name: Skeleton Warrior
+      level: 48
+    - name: Skeleton Sorcerer
+      level: 48
+    - name: Ghost Mail
+      level: 48
+    - name: Frost Corpse Torturer
+      level: 48
+    - name: Armored Cyclops
+      level: 48
+    - name: Lapis Eye
+      level: 48
+    - name: Emerald Eye
+      level: 48
+    - name: Wight
+      level: 48
+    - name: Witch
+      level: 48
+    - name: Skeleton Mage
+      level: 48
+
+  - name: Empty Chapel
+    abbrev: EZ-EC
+    location:
+      x: 388
+      y: 162
+    level: 50
+    monsters:
+    - name: Grimwarg
+      level: 50
+    - name: Sulfur Saurian
+      level: 50
+    - name: Harpy
+      level: 50
+    - name: Chimera
+      level: 50
+    - name: Silver Roar
+      level: 50
+
+  - name: Lakebottom Connecting Passage
+    areaLevel: 6
+    abbrev: EZ-LCP
+    location:
+      x: 335
+      y: 138
+    level: 52
+    monsters: []
+
+  - name: Dead Lord's Labyrinth
+    areaLevel: 10
+    abbrev: EZ-DLL
+    location:
+      x: 383
+      y: 153
+    level: 58
+    monsters: []
+
+  - name: Mysterious Mausoleum
+    areaLevel: 13
+    ir: 30
+    abbrev: EZ-MM
+    location:
+      x: 386
+      y: 146
+    level: 65
+    monsters: []
+
+- name: Zandora Wastelands
+  subregions:
+
+  - name: Zandora Wastelands
+    abbrev: ZW-ZW
+    location:
+      x: 294
+      y: 80
+    level: 47
+    monsters:
+    - name: Goblin Fighter
+      level: 47
+      timePeriod: day
+    - name: Hobgoblin Fighter
+      level: 47
+      timePeriod: day
+    - name: Sling Hobgoblin
+      level: 47
+      timePeriod: day
+    - name: Hobgoblin Leader
+      level: 47
+      timePeriod: day
+    - name: Grimwarg
+      level: 47
+    - name: Damned Wolf
+      level: 46
+    - name: Skeleton Knight
+      level: 46
+      timePeriod: night
+    - name: Skeleton Warrior
+      level: 46
+      timePeriod: night
+    - name: Skeleton Sorcerer
+      level: 46
+      timePeriod: night
+    - name: Stout Undead
+      level: 47
+      timePeriod: night
+    - name: Warrior Undead
+      level: 46
+      timePeriod: night
+    - name: Frost Corpse Punisher
+      level: 46
+    - name: Frost Corpse Torturer
+      level: 46
+    - name: Harpy
+      level: 46
+    - name: Snow Harpy
+      level: 47
+    - name: Ooze
+      level: 46
+    - name: Blob
+      level: 47
+    - name: Rogue Mage
+      level: 47
+    - name: Rogue Warrior
+      level: 48
+    - name: Banded Fighter
+      level: 46
+    - name: Banded Hunter
+      level: 46
+    - name: Banded Defender
+      level: 48
+    - name: Banded Mage
+      level: 46
+    - name: Mergan Hunter
+      level: 46
+    - name: Damned Goblin
+      level: 46
+    - name: Damned Sling Goblin
+      level: 46
+    - name: Damned Goblin Fighter
+      level: 46
+    - name: Armored Cyclops
+      level: 46
+    - name: Golem
+      level: 48
+    - name: Chimera
+      level: 47
+    - name: Griffin
+      level: 48
+    - name: Cockatrice
+      level: 47
+    - name: Sphinx
+      level: 47
+    - name: Ghoul
+      level: 47
+    - name: Wight
+      level: 47
+    - name: Orc Bringer
+      level: 47
+    - name: Orc Trooper
+      level: 47
+    - name: Ox
+      level: 35
+    - name: Boar
+      level: 30
+    - name: Colossus
+      level: 46
+
+  - name: Twin Wheel Valley
+    abbrev: ZW-TWV
+    location:
+      x: 281
+      y: 82
+    level: 47
+    monsters:
+    - name: Mergoda Patrol Corps
+      level: 47
+    - name: Mergoda Female Office
+      level: 47
+
+  - name: Banded Haunt
+    abbrev: ZW-BH
+    location:
+      x: 226
+      y: 84
+    level: 48
+    monsters: []
+
+  - name: South Mergoda Ruins
+    abbrev: ZW-SMR
+    location:
+      x: 344
+      y: 93
+    level: 48
+    monsters: []
+
+  - name: Orc Remnants Camp
+    abbrev: ZW-ORC
+    location:
+      x: 267
+      y: 104
+    level: 55
+    monsters: []
+
+  - name: Black Abyss Valley
+    abbrev: ZW-BAV
+    location:
+      x: 312
+      y: 86
+    level: 55
+    monsters: []
+
+  - name: Fanatic's Hiding Ground
+    abbrev: ZW-FHG
+    location:
+      x: 266
+      y: 75
+    level: 70
+    monsters: []
+
+  - name: Old Underground Laboratory
+    abbrev: ZW-OUL
+    location:
+      x: 318
+      y: 92
+    level: 48
+    monsters:
+    - name: Frost Corpse Punisher
+      level: 48
+    - name: Blob
+      level: 48
+    - name: Damned Goblin Fighter
+      level: 48
+    - name: Golem
+      level: 48
+
+  - name: Mergoda Security District
+    abbrev: ZW-MSD
+    location:
+      x: 296
+      y: 32
+    level: 49
+    monsters:
+    - name: Damned Wolf
+      level: 49
+    - name: Skeleton Knight
+      level: 49
+    - name: Skeleton Warrior
+      level: 49
+    - name: Ghost Mail
+      level: 49
+    - name: Sword Undead
+      level: 49
+    - name: Warrior Undead
+      level: 49
+    - name: Frost Corpse Punisher
+      level: 49
+    - name: Frost Corpse Torturer
+      level: 49
+    - name: Blob
+      level: 49
+    - name: Damned Goblin
+      level: 49
+    - name: Damned Sling Goblin
+      level: 49
+    - name: Damned Goblin Fighter
+      level: 49
+    - name: Unspeakeable Meat
+      level: 45
+    - name: Skeleton Sorcerer
+      level: 49
+
+  - name: Mergoda Flood Channels
+    areaLevel: 6
+    abbrev: ZW-MFC
+    location:
+      x: 277
+      y: 77
+    level: 53
+    monsters: []
+
+  - name: Pit of Screams
+    areaLevel: 13
+    ir: 40
+    abbrev: ZW-POS
+    location:
+      x: 275
+      y: 73
+    level: 70
+    monsters: []
