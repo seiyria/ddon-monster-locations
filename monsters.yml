@@ -1711,3 +1711,314 @@ regions:
       y: 493
     level: 63
     monsters: []
+
+- name: Deenan Woods
+  subregions:
+
+  - name: Deenan Woods
+    abbrev: DW-DW
+    location:
+      x: 243
+      y: 515
+    level: 41
+    monsters:
+    - name: Direwolf
+      level: 41
+    - name: Skeleton Knight
+      level: 41
+      timePeriod: night
+    - name: Skeleton Sorceror
+      level: 41
+      timePeriod: night
+    - name: Blue Newt
+      level: 41
+    - name: Glutton Ooze
+      level: 41
+    - name: Forest Goblin Fighter
+      level: 41
+    - name: Sling Forest Goblin
+      level: 41
+    - name: Killer Bee
+      level: 41
+    - name: Ent
+      level: 41
+    - name: Troll
+      level: 41
+    - name: Dread Ape
+      level: 41
+    - name: Brute Ape
+      level: 41
+    - name: Wight
+      level: 41
+      timePeriod: night
+    - name: Rabbit
+      level: 10
+    - name: Buck
+      level: 20
+    - name: Doe
+      level: 20
+    - name: Boar
+      level: 10
+
+  - name: Groan Nos
+    abbrev: DW-GN
+    location:
+      x: 277
+      y: 522
+    level: 42
+    monsters:
+    - name: ??? Mudman
+      level: 42
+    - name: ??? Glutton Ooze
+      level: 42
+
+  - name: Sazu Deenan
+    abbrev: DW-SD
+    location:
+      x: 273
+      y: 535
+    level: 44
+    monsters:
+    - name: Elf Eater Silver Roar
+      level: 44
+
+  - name: Elnea Spring
+    abbrev: DW-ES
+    location:
+      x: 240
+      y: 523
+    level: 45
+    monsters: []
+
+  - name: Big Tree Dell
+    abbrev: DW-BTD
+    location:
+      x: 261
+      y: 516
+    level: 68
+    monsters: []
+
+  - name: Sunset Terrace
+    abbrev: DW-ST
+    location:
+      x: 233
+      y: 521
+    level: 41
+    monsters:
+    - name: Harpy
+      level: 41
+    - name: Forest Goblin
+      level: 41
+    - name: Forest Goblin Fighter
+      level: 41
+    - name: Sling Forest Goblin
+      level: 41
+    - name: Ent
+      level: 41
+    - name: Troll
+      level: 41
+    - name: Chimera
+      level: 41
+    - name: Dread Ape
+      level: 41
+    - name: Brute Ape
+      level: 41
+
+  - name: Sacred Tree Terrace
+    abbrev: DW-STT
+    location:
+      x: 271
+      y: 511
+    level: 41
+    monsters:
+    - name: Skeleton Knight
+      level: 41
+    - name: Skeleton Sorcerer
+      level: 41
+    - name: Harpy
+      level: 41
+    - name: Forest Goblin Fighter
+      level: 41
+    - name: Sling Forest Goblin
+      level: 41
+    - name: Killer Bee
+      level: 40
+    - name: Ent
+      level: 41
+    - name: Wight
+      level: 41
+    - name: Rabbit
+      level: 15
+
+  - name: Forest People's Tunnel
+    areaLevel: 2
+    abbrev: DW-FPT
+    location:
+      x: 284
+      y: 512
+    level: 41
+    monsters:
+    - name: Mudman
+      level: 41
+    - name: Slime
+      level: 40
+    - name: Forest Goblin
+      level: 41
+
+  - name: Erte Deenan
+    abbrev: DW-ED
+    location:
+      x: 315
+      y: 520
+    level: 42
+    monsters:
+    - name: Direwolf
+      level: 42
+    - name: Harpy
+      level: 42
+    - name: Mist Fighter
+      level: 42
+    - name: Mist Hunter
+      level: 42
+    - name: Mist Sorceror
+      level: 42
+    - name: Forest Goblin Fighter
+      level: 42
+    - name: Sling Forest Goblin
+      level: 42
+    - name: Killer Bee
+      level: 41
+    - name: Troll
+      level: 42
+    - name: Chimera
+      level: 42
+    - name: Dread Ape
+      level: 42
+    - name: Brute Ape
+      level: 42
+    - name: Orc Battler
+      level: 42
+    - name: Orc Bringer
+      level: 42
+    - name: Orc Trooper
+      level: 42
+    - name: Rabbit
+      level: 12
+
+  - name: Moonlight Terrace
+    abbrev: DW-MT
+    location:
+      x: 268
+      y: 532
+    level: 42
+    monsters:
+    - name: Harpy
+      level: 42
+    - name: Slime
+      level: 420
+    - name: Forest Goblin
+      level: 42
+    - name: Forest Goblin Fighter
+      level: 42
+    - name: Sling Forest Goblin
+      level: 42
+    - name: Cyclops
+      level: 42
+
+  - name: Divine Blossom Terrace
+    areaLevel: 4
+    abbrev: DW-BDT
+    location:
+      x: 259
+      y: 507
+    level: 43
+    monsters:
+    - name: Grimwarg
+      level: 43
+    - name: Skeleton Knight
+      level: 43
+    - name: Skeleton Mage
+      level: 43
+    - name: Skeleton Sorceror
+      level: 43
+    - name: Sword Undead
+      level: 43
+    - name: Harpy
+      level: 43
+    - name: Armored Cyclops
+      level: 43
+    - name: Wight
+      level: 43
+    - name: Spider
+      level: 40
+
+  - name: Blue Waterway
+    abbrev: DW-BW
+    location:
+      x: ???
+      y: ???
+    level: 43
+    monsters:
+    - name: Blue Newt
+      level: 43
+    - name: Ooze
+      level: 42
+    - name: Blob
+      level: 43
+    - name: Forest Goblin
+      level: 43
+    - name: Forest Goblin Fighter
+      level: 43
+    - name: Sling Forest Goblin
+      level: 43
+    - name: Troll
+      level: 43
+    - name: Ogre
+      level: 43
+
+  - name: Le Karvas Salto
+    abbrev: DW-LKS
+    location:
+      x: 315
+      y: 520
+    level: 44
+    monsters:
+    - name: Wolf
+      level: 44
+    - name: Forest Goblin
+      level: 44
+    - name: Forest Goblin Fighter
+      level: 44
+    - name: Sling Forest Goblin
+      level: 44
+    - name: Ent
+      level: 44
+    - name: Mole Troll
+      level: 44
+    - name: Chimera
+      level: 44
+    - name: Ogre
+      level: 44
+    - name: Dread Ape
+      level: 44
+    - name: Brute Ape
+      level: 44
+
+  - name: Le Karvas Arma
+    areaLevel: 10
+    abbrev: DW-LKA
+    location:
+      x: 315
+      y: 520
+    level: 45
+    monsters: []
+
+  - name: Heavenly Terrace
+    areaLevel: 13
+    ir: 35
+    abbrev: DW-HT
+    location:
+      x: 257
+      y: 523
+    level: 68
+    monsters: []
