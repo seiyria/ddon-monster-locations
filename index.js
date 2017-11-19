@@ -7,6 +7,7 @@ var vue = new Vue({
         search: 'goblin',
         currentMonsters: [],
         allMonsters: [],
+        neededZones: [],
         noExtraData: true
     },
     methods: {
@@ -32,13 +33,18 @@ function formatData(data) {
 
                 var sumName = name === regionName ? name : regionName + ' - ' + name;
 
+                if(monsters.length === 0) {
+                    vue.neededZones.push(regionName + ' - ' + name);
+                }
+
                 return {
                     regionName: sumName  + ' ~ ' + 'Lv. ' + level,
                     monsterInfo: _.sortBy(_.map(monsters, ({ name, level, timePeriod, events, coordinates }) => {
                         return {
                             name: name + ' ~ Lv. ' + level + ' (' + abbrev + ')',
                             data: {
-                                name, level, timePeriod, events, coordinates
+                                name, level, timePeriod,
+                                events: events || [], coordinates: coordinates || []
                             },
                             regionData: regionInfo
                         };

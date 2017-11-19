@@ -12,113 +12,76 @@ regions:
     - name: Goblin
       level: 1
       timePeriod: day
-      events: []
-      coordinates: []
+      
     - name: Goblin Fighter
       level: 2
       timePeriod: day
-      events: []
-      coordinates: []
+      
     - name: Shield Goblin
       level: 4
       timePeriod: day
-      events: []
-      coordinates: []
+      
     - name: Sling Goblin
       level: 1
       timePeriod: day
-      events: []
-      coordinates: []
+      
     - name: Goblin Leader
       level: 3
       timePeriod: day
-      events: []
-      coordinates: []
+      
     - name: Wolf
       level: 7
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Skeleton
       level: 6
       timePeriod: night
-      events: []
-      coordinates: []
+      
     - name: Saurian
       level: 3
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Undead
       level: 1
       timePeriod: night
-      events: []
-      coordinates: []
+      
     - name: Rogue Fighter
       level: 6
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Rogue Seeker
       level: 6
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Rogue Hunter
       level: 7
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Rogue Healer
       level: 7
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Rogue Defender
       level: 12
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Rogue Mage
       level: 7
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Killer Bee
       level: 1
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Brute Ape
       level: 6
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Orc Soldier
       level: 11
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Rabbit
       level: 1
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Ox
       level: 1
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Pig
       level: 2
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Piglet
       level: 1
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: Roaring Demon Bridge
     abbrev: HP-RDB
@@ -129,14 +92,10 @@ regions:
     monsters:
     - name: Binsha's Henchman
       level: 8
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Binsha the Bridge-Keeper
       level: 2
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: Bloodwater Bank
     abbrev: HP-BB
@@ -147,14 +106,10 @@ regions:
     monsters:
     - name: Saurian Variant
       level: 19
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Gluttonous Giant Saurian
       level: 21
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: The Black Wolves' Hideout
     abbrev: HP-TBWH
@@ -165,9 +120,7 @@ regions:
     monsters:
     - name: Black Wolf Rogue
       level: 25
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: Blade Scarred Path
     abbrev: HP-BSP
@@ -186,9 +139,7 @@ regions:
     monsters:
     - name: Giant Rat
       level: 3
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: Tel's Withered Well
     abbrev: HP-TWW
@@ -199,14 +150,10 @@ regions:
     monsters:
     - name: Slime
       level: 3
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Deep Slime
       level: 6
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: Hunter's Secret Passage
     abbrev: HP-HSP
@@ -217,24 +164,16 @@ regions:
     monsters:
     - name: Wolf
       level: 3
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Rogue Fighter
       level: 3
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Rogue Healer
       level: 3
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Spider
       level: 3
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: Abandoned Well on Hidell Road
     abbrev: HP-AWHR
@@ -245,14 +184,10 @@ regions:
     monsters:
     - name: Giant Rat
       level: 3
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Wolf
       level: 6
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: Small Cave Tombs
     abbrev: HP-SCT
@@ -263,19 +198,13 @@ regions:
     monsters:
     - name: Giant Rat
       level: 3
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Undead
       level: 10
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Skeleton
       level: 11
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: Hidell Catacombs
     abbrev: HP-HC
@@ -286,44 +215,28 @@ regions:
     monsters:
     - name: Undead
       level: 12
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Skeleton
       level: 12
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Skeleton Mage
       level: 12
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Defiled Assistant Priest
       level: 13
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Mudman
       level: 12
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Worm
       level: 10
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Deep Slime
       level: 10
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Brute Ape
       level: 12
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: Plains Abandoned House Cellar
     abbrev: HP-PAHC
@@ -334,29 +247,19 @@ regions:
     monsters:
     - name: Goblin Fighter
       level: 12
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Shield Goblin
       level: 12
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Sling Goblin
       level: 11
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Goblin Leader
       level: 14
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Brute Ape
       level: 13
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: The Ark
     abbrev: HP-TA
@@ -367,49 +270,31 @@ regions:
     monsters:
     - name: Skeleton
       level: 15
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Skeleton Mage
       level: 15
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Skeleton Knight
       level: 15
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Alchemized Skeleton
       level: 15
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Ooze
       level: 15
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Unspeakable Meat
       level: 15
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Alchemized Goblin Fighter
       level: 15
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Alchemized Sling Goblin
       level: 15
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Alchemized Goblin
       level: 15
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: Blocked Passage
     abbrev: HP-BP
@@ -420,49 +305,31 @@ regions:
     monsters:
     - name: Undead
       level: 17
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Stout Undead
       level: 17
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Path-Guard Sling Goblin
       level: 16
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Sling Hobgoblin
       level: 18
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Hobgoblin Leader
       level: 18
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Harpy
       level: 17
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Worm
       level: 16
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Slime
       level: 17
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Path-Guard Cyclops
       level: 18
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: Hidell Catacombs Depths
     abbrev: HP-HCD
@@ -473,39 +340,25 @@ regions:
     monsters:
     - name: Sword Undead
       level: 26
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Skeleton Knight
       level: 27
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Skeleton Mage
       level: 27
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Mudman
       level: 27
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Grimwarg
       level: 27
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Worm
       level: 27
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Ogre
       level: 28
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: Hidell Catacombs Innermost Depths
     abbrev: HP-HCID
@@ -516,39 +369,25 @@ regions:
     monsters:
     - name: Skeleton Sorcerer
       level: 29
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Grimwarg
       level: 30
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Ooze
       level: 29
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Glutton Ooze
       level: 29
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Plague Apostle
       level: 30
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Rock Saurian
       level: 30
-      timePeriod: always
-      events: []
-      coordinates: []
+      
     - name: Menvili the Undead Priest
       level: 30
-      timePeriod: always
-      events: []
-      coordinates: []
+      
 
   - name: The Ark's Lower Level
     abbrev: HP-TALL
@@ -556,4 +395,472 @@ regions:
       x: 184
       y: 310
     level: 57
+    monsters: []
+
+- name: Breya Coast
+  subregions:
+
+  - name: Breya Coast
+    abbrev: BC-BC
+    location:
+      x: 106
+      y: 281
+    level: 8
+    monsters:
+    - name: Goblin
+      level: 8
+      timePeriod: day
+      
+    - name: Goblin Fighter
+      level: 8
+      timePeriod: day
+      
+    - name: Shield Goblin
+      level: 8
+      timePeriod: day
+      
+    - name: Sling Goblin
+      level: 8
+      timePeriod: day
+      
+    - name: Hobgoblin
+      level: 16
+      timePeriod: day
+      
+    - name: Hobgoblin Fighter
+      level: 16
+      timePeriod: day
+      
+    - name: Hobgoblin Leader
+      level: 17
+      timePeriod: day
+      
+    - name: Sling Hobgoblin
+      level: 16
+      timePeriod: day
+      
+    - name: Skeleton
+      level: 10
+      timePeriod: night
+      
+    - name: Skeleton Knight
+      level: 11
+      timePeriod: night
+      
+    - name: Skeleton Knight
+      level: 12
+      timePeriod: night
+      
+    - name: Saurian
+      level: 9
+      
+    - name: Giant Saurian
+      level: 16
+      
+    - name: Mudman
+      level: 9
+      
+    - name: Harpy
+      level: 8
+      
+    - name: Rogue Fighter
+      level: 13
+      
+    - name: Rogue Hunter
+      level: 12
+      
+    - name: Rogue Mage
+      level: 12
+      
+    - name: Rabbit
+      level: 2
+      
+    - name: Pig
+      level: 3
+      
+  - name: Hidden Beach
+    abbrev: BC-HB
+    location:
+      x: 111
+      y: 272
+    level: 10
+    monsters:
+    - name: Hidden Beach Rogue
+      level: 10
+      
+  - name: Birdcall Rock
+    abbrev: BC-BR
+    location:
+      x: 75
+      y: 301
+    level: 13
+    monsters:
+    - name: Mother Harpy
+      level: 13
+
+  - name: Goblin Camp
+    abbrev: BC-GC
+    location:
+      x: 114
+      y: 118
+    level: 18
+    monsters:
+    - name: Gyomuru's Minion
+      level: 18
+    - name: Gyomuru the Barbed Horn
+      level: 18
+
+  - name: Deserted Village of Ruflow
+    abbrev: BC-DVOR
+    location:
+      x: 124
+      y: 344
+    level: 23
+    monsters: []
+
+  - name: Blue Claw Ranch
+    abbrev: BC-BCR
+    location:
+      x: 111
+      y: 352
+    level: 27
+    monsters: []
+
+  - name: Rancid Haunt
+    abbrev: BC-RH
+    location:
+      x: 56
+      y: 310
+    level: 60
+    monsters: []
+
+  - name: Lighthouse Old Well
+    abbrev: BC-LOW
+    location:
+      x: 56
+      y: 310
+    level: 12
+    monsters:
+    - name: Saurian
+      level: 11
+    - name: Worm
+      level: 9
+    - name: Slime
+      level: 9
+    - name: Deep Slime
+      level: 11
+
+  - name: Seaside Cellar
+    abbrev: BC-SC
+    location:
+      x: 103
+      y: 303
+    level: 14
+    monsters:
+    - name: Breya Treasure Bandit
+      level: 14
+
+  - name: Beach Underground Stores
+    abbrev: BC-BUS
+    location:
+      x: 122
+      y: 344
+    level: 19
+    monsters:
+    - name: Goblin Fighter
+      level: 19
+    - name: Hobgoblin
+      level: 19
+    - name: Hobgoblin Fighter
+      level: 19
+    - name: Hobgoblin Leader
+      level: 20
+    - name: Sling Hobgoblin
+      level: 19
+
+  - name: Roaring Tide Cave
+    abbrev: BC-RTC
+    location:
+      x: 116
+      y: 327
+    level: 33
+    monsters: []
+
+  - name: Moltova Ruins
+    abbrev: BC-MR
+    location:
+      x: 56
+      y: 310
+    level: 60
+    monsters: []
+
+- name: Mysree Forest
+  subregions:
+
+  - name: Mysree Forest
+    abbrev: MF-MF
+    location:
+      x: 208
+      y: 368
+    level: 5
+    monsters:
+    - name: Wolf
+      level: 3
+    - name: Skeleton
+      level: 3
+      timePeriod: night
+    - name: Saurian
+      level: 13
+    - name: Rogue Seeker
+      level: 18
+    - name: Rogue Defender
+      level: 18
+    - name: Forest Goblin
+      level: 4
+      timePeriod: day
+    - name: Sling Forest Goblin
+      level: 12
+      timePeriod: day
+    - name: Killer Bee
+      level: 1
+    - name: Brute Ape
+      level: 12
+    - name: Rabbit
+      level: 3
+    - name: Buck
+      level: 5
+    - name: Doe
+      level: 5
+    - name: Boar
+      level: 3
+    - name: Skeleton Mage
+      level: 3
+      timePeriod: night
+
+  - name: Forest Goblins' Village
+    abbrev: MF-FGV
+    location:
+      x: 217
+      y: 367
+    level: 14
+    monsters:
+    - name: Gurigga's Minions
+      level: 12
+    - name: Gurigga the Green Demon
+      level: 14
+    - name: Brute Ape
+      level: 12
+
+  - name: Ancient Place of Rituals
+    abbrev: MF-APOR
+    location:
+      x: 237
+      y: 377
+    level: 18
+    monsters:
+    - name: Ancient Forest Goblin Fighter
+      level: 16
+    - name: Ancient Sling Forest Goblin
+      level: 16
+    - name: Old Grown Ent
+      level: 18
+
+  - name: The Roaring Ape's Territory
+    abbrev: MF-TRAT
+    location:
+      x: 192
+      y: 366
+    level: 27
+    monsters:
+    - name: Howler Ape
+      level: 27
+
+  - name: Abattoir
+    abbrev: MF-A
+    location:
+      x: 216
+      y: 391
+    level: 27
+    monsters:
+    - name: Ripper Ape
+      level: 27
+
+  - name: The Pig-Eater's Den
+    abbrev: MF-TPED
+    location:
+      x: 224
+      y: 372
+    level: 27
+    monsters:
+    - name: Pig-Eating Ape
+      level: 27
+
+  - name: Peddler's Peril
+    abbrev: MF-PP
+    location:
+      x: 218
+      y: 419
+    level: 70
+    monsters:
+    - name: Maritia the Kidnapper
+      level: 70
+
+  - name: Demon's Den
+    abbrev: MF-DD
+    location:
+      x: 232
+      y: 402
+    level: 16
+    monsters:
+    - name: Wolf
+      level: 15
+    - name: Skeleton
+      level: 15
+    - name: Skeleton Mage
+      level: 15
+    - name: Brute Ape
+      level: 16
+
+  - name: Glowworm Cave
+    abbrev: MF-GC
+    location:
+      x: 192
+      y: 415
+    level: 17
+    monsters:
+    - name: Wolf
+      level: 17
+    - name: Saurian
+      level: 17
+    - name: Worm
+      level: 13
+    - name: Forest Goblin
+      level: 17
+    - name: Forest Goblin Fighter
+      level: 18
+    - name: Sling Forest Goblin
+      level: 17
+    - name: Redcap
+      level: 17
+    - name: Redcap Fighter
+      level: 17
+    - name: Sling Redcap
+      level: 17
+    - name: Troll
+      level: 19
+    - name: Dread Ape
+      level: 19
+    - name: Brute Ape
+      level: 17
+
+  - name: Lynwood Underground Waterway
+    abbrev: MF-LUW
+    location:
+      x: 225
+      y: 382
+    level: 20
+    monsters:
+    - name: Skeleton Mage
+      level: 18
+    - name: Saurian
+      level: 18
+    - name: Giant Saurian
+      level: 18
+    - name: Sulfur Saurian
+      level: 18
+    - name: Leech
+      level: 15
+    - name: Deep Slime
+      level: 18
+    - name: Dread Ape of the Aqueduct
+      level: 20
+    - name: Brute Ape
+      level: 19
+
+  - name: Mysree Limestone Cave
+    abbrev: MF-MLC
+    location:
+      x: 228
+      y: 359
+    level: 32
+    monsters:
+    - name: Skeleton Sorcerer
+      level: 30
+    - name: Giant Saurian
+      level: 29
+    - name: Mudman
+      level: 29
+    - name: Pit Harpy
+      level: 30
+    - name: Leech
+      level: 27
+    - name: Slime
+      level: 28
+    - name: Deep Slime
+      level: 29
+    - name: Forest Goblin
+      level: 30
+    - name: Forest Goblin Fighter
+      level: 30
+    - name: Sling Forest Goblin
+      level: 29
+    - name: Troll
+      level: 30
+    - name: Magic Lion Singa
+      level: 32
+
+  - name: The Rift's Inner Depths
+    abbrev: MF-TRID
+    location:
+      x: 175
+      y: 361
+    level: 63
+    monsters:
+    - name: Skeleton
+      level: 63
+    - name: Skeleton Knight
+      level: 63
+    - name: Skeleton Warrior
+      level: 63
+    - name: Living Armor
+      level: 63
+    - name: Skeleton Brute
+      level: 63
+    - name: Skull Lord
+      level: 63
+    - name: Undead
+      level: 63
+    - name: Stout Undead
+      level: 63
+    - name: Warrior Undead
+      level: 63
+    - name: Worm
+      level: 63
+    - name: Pawn Fighter
+      level: 63
+    - name: Pawn Healer
+      level: 63
+    - name: Pawn Defender
+      level: 63
+    - name: Pawn Mage
+      level: 63
+    - name: Pawn Warrior
+      level: 63
+    - name: Pawn Element Archer
+      level: 63
+    - name: Shadow Goblin
+      level: 63
+    - name: Shadow Sling Goblin
+      level: 63
+    - name: Shadow Goblin Leader
+      level: 63
+    - name: Ghost
+      level: 60
+
+  - name: Ancient Burial Mound
+    abbrev: MF-ABM
+    location:
+      x: 222
+      y: 413
+    level: 70
     monsters: []
