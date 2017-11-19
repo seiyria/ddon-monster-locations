@@ -2985,3 +2985,158 @@ regions:
       y: 73
     level: 70
     monsters: []
+
+- name: Mergoda Ruins
+  subregions:
+
+  - name: Mergoda Ruins
+    abbrev: MR-MR
+    location:
+      x: 93
+      y: 48
+    level: 50
+    monsters:
+    - name: Alchemized Wolf
+      level: 50
+    - name: Alchemized Skeleton
+      level: 52
+    - name: Alchemized Harpy
+      level: 50
+    - name: Mergan Fighter
+      level: 50
+    - name: Mergan Seeker
+      level: 50
+    - name: Mergan Hunter
+      level: 50
+    - name: Mergan Healer
+      level: 50
+    - name: Mergan Defender
+      level: 50
+    - name: Mergan Mage
+      level: 50
+    - name: Mergan Element Archer
+      level: 50
+    - name: Alchemized Goblin Fighter
+      level: 50
+    - name: Goliath
+      level: 53
+
+  - name: Alchemy Laboratory
+    abbrev: AL-AL
+    location:
+      x: 41
+      y: 167
+    level: 51
+    monsters: []
+
+  - name: An Alchemist's Home
+    areaLevel: 2
+    abbrev: AL-AAH
+    location:
+      x: 82
+      y: 154
+    level: 51
+    monsters:
+    - name: Mergan Healer
+      level: 51
+    - name: ???
+      level: 53
+    - name: ???
+      level: 51
+
+  - name: Elixir Refining Chamber
+    areaLevel: 4
+    abbrev: AL-ERC
+    location:
+      x: 113
+      y: 69
+    level: 53
+    monsters: []
+
+  - name: Mergodan Residence
+    abbrev: MR-MR
+    location:
+      x: 93
+      y: 48
+    level: 50
+    monsters:
+    - name: Mergan Fighter
+      level: 53
+    - name: Mergan Mage
+      level: 53
+    - name: Mergan Hunter
+      level: 53
+
+  - name: Palace Plaza
+    abbrev: AL-PP
+    location:
+      x: 71
+      y: 148
+    level: 57
+    monsters: []
+
+  - name: Mergan Alchemdia
+    abbrev: AL-MA
+    location:
+      x: 107
+      y: 78
+    level: 60
+    monsters: []
+
+  - name: Mergoda Ruins: Lower Ruins
+    abbrev: MR-MRLR
+    location:
+      x: 40
+      y: 208
+    level: 50
+    monsters:
+    - name: Alchemized Wolf
+      level: 50
+    - name: Alchemized Harpy
+      level: 50
+    - name: Mergan Fighter
+      level: 50
+    - name: Mergan Seeker
+      level: 50
+    - name: Mergan Hunter
+      level: 50
+    - name: Mergan Healer
+      level: 50
+    - name: Mergan Defender
+      level: 50
+    - name: Mergan Mage
+      level: 50
+    - name: Alchemized Goblin Fighter
+      level: 50
+
+  - name: Mergoda Ruins: Royal Palace Level
+    abbrev: MR-MRRPL
+    location:
+      x: 122
+      y: 66
+    level: 52
+    monsters:
+    - name: Alchemized Wolf
+      level: 50
+    - name: Alchemized Skeleton
+      level: 50
+    - name: Alchemized Harpy
+      level: 50
+    - name: Mergan Hunter
+      level: 50
+    - name: Mergan Element Archer
+      level: 50
+    - name: Mergan Mage
+      level: 50
+    - name: Goliath
+      level: 53
+
+  - name: Secret Proving Ground
+    areaLevel: 13
+    ir: 35
+    abbrev: AL-SPG
+    location:
+      x: 85
+      y: 93
+    level: 68
+    monsters: []
