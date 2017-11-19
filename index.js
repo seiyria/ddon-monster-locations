@@ -12,6 +12,11 @@ var vue = new Vue({
     methods: {
         updateHash() {
             updateWindowHash();
+        },
+        copy() {
+            var dt = new clipboard.DT();
+            dt.setData('text/plain', window.location.href);
+            clipboard.write(dt);
         }
     }
 });
