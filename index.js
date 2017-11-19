@@ -8,7 +8,8 @@ var vue = new Vue({
         currentMonsters: [],
         allMonsters: [],
         neededZones: [],
-        noExtraData: true
+        noExtraData: true,
+        loading: true
     },
     methods: {
         updateHash() {
@@ -27,9 +28,9 @@ function formatData(data) {
         .map(({ name, subregions }) => {
             var regionName = name;
 
-            return _.map(subregions, ({ name, location, level, abbrev, monsters }) => {
+            return _.map(subregions, ({ name, location, level, abbrev, monsters, ir, areaLevel }) => {
 
-                var regionInfo = { name, location, level, abbrev };
+                var regionInfo = { name, location, level, abbrev, ir, areaLevel };
 
                 var sumName = name === regionName ? name : regionName + ' - ' + name;
 
@@ -106,4 +107,5 @@ axios.get('monsters.yml')
     .then(res => {
         vue.allMonsters = formatData(YAML.parse(res.data));
         loadPreviousMonsters();
+        vue.loading = false;
     });
