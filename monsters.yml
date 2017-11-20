@@ -3641,3 +3641,409 @@ regions:
       level: 68
     - name: Skeleton Mage
       level: 68
+
+- name: Rathnite Foothills
+  subregions:
+
+  - name: Rathnite Foothills
+    ir: 85
+    abbrev: RF-RF
+    location:
+      x: 369
+      y: 856
+    level: 80
+    monsters:
+    - name: Grim Goblin
+      level: 80
+    - name: Grim Goblin Fighter
+      level: 80
+    - name: Sling Grim Goblin
+      level: 80
+    - name: Grim Goblin Leader
+      level: 80
+    - name: Goblin Shaman
+      level: 80
+    - name: Goblin Aid Shaman
+      level: 80
+    - name: Warg
+      level: 80
+    - name: Skeleton Knight
+      level: 80
+    - name: Saurian
+      level: 78
+    - name: Saurian Sage
+      level: 80
+    - name: Giant Saurian Sage
+      level: 78
+    - name: Brute Ape
+      level: 80
+    - name: Siren
+      level: 80
+    - name: Ghost
+      level: 80
+    - name: Sword Soldier Dwarf Orc
+      level: 80
+    - name: Blunt Soldier Dwarf Orc
+      level: 80
+    - name: Heavy Soldier Dwarf Orc
+      level: 80
+    - name: Ranged Soldier Dwarf Orc
+      level: 82
+
+  - name: Rathnite Foothills Lakeside
+    ir: 85
+    abbrev: RF-RFL
+    location:
+      x: 303
+      y: 851
+    level: 82
+    monsters:
+    - name: Grimwarg
+      level: 82
+    - name: War-Ready Grimwarg
+      level: 80
+    - name: Skeleton Knight
+      level: 82
+    - name: Skeleton Warrior
+      level: 82
+    - name: Skeleton Brute
+      level: 82
+    - name: Sulfur Saurian
+      level: 80
+    - name: Giant Sulfur Saurian
+      level: 82
+    - name: Strix
+      level: 80
+    - name: Little Crag
+      level: 82
+    - name: Ghost
+      level: 82
+    - name: Sword Soldier Dwarf Orc
+      level: 82
+    - name: Blunt Soldier Dwarf Orc
+      level: 82
+    - name: Heavy Soldier Dwarf Orc
+      level: 85
+    - name: Ranged Soldier Dwarf Orc
+      level: 82
+    - name: Squad Leader Dwarf Orc
+      level: 85
+    - name: Pig
+      level: 1
+
+  - name: Goblin Lookout
+    ir: 85
+    abbrev: RF-GL
+    location:
+      x: 343
+      y: 860
+    level: 80
+    monsters:
+    - name: Grim Goblin Fighter
+      level: 80
+    - name: Grim Goblin Leader
+      level: 80
+    - name: Goblin Aid Shaman
+      level: 80
+
+  - name: The Howling Front
+    ir: 85
+    abbrev: RF-THF
+    location:
+      x: 293
+      y: 845
+    level: 80
+    monsters:
+    - name: War-Ready Grimwarg
+      level: 80
+    - name: Strix
+      level: 80
+
+  - name: Deserted Village of Denisyr
+    ir: 80
+    abbrev: RF-DVOD
+    location:
+      x: 356
+      y: 836
+    level: 83
+    monsters:
+    - name: Sword Soldier Dwarf Orc
+      level: 83
+    - name: Ranged Soldier Dwarf Orc
+      level: 83
+    - name: Squad Leader Dwarf Orc
+      level: 83
+
+  - name: Former Rest Station
+    ir: 80
+    abbrev: RF-FRS
+    location:
+      x: 321
+      y: 859
+    level: 83
+    monsters:
+    - name: Sling Grim Goblin
+      level: 83
+    - name: Goblin Shaman
+      level: 83
+    - name: Behemoth
+      level: 83
+
+  - name: Dewdrop Crater
+    ir: 80
+    abbrev: RF-DC
+    location:
+      x: 275
+      y: 815
+    level: 83
+    monsters:
+    - name: War-Ready Grimwarg
+      level: 83
+    - name: Chimera
+      level: 83
+
+  - name: Feryana Border Checkpoint
+    ir: 80
+    abbrev: RF-FBC
+    location:
+      x: 292
+      y: 801
+    level: 83
+    monsters:
+    - name: Black Griffon
+      level: 83
+    - name: Heavy Soldier Dwarf Orc
+      level: 83
+
+  - name: Demon Armor War Machine Garrison
+    ir: 90
+    abbrev: RF-DAWMG
+    location:
+      x: 278
+      y: 867
+    level: 85
+    monsters:
+    - name: Catoblepas
+      level: 85
+    - name: Heavy Soldier Dwarf Orc
+      level: 85
+
+  - name: Cave of Hell's Descent
+    ir: 80
+    abbrev: RF-COHD
+    location:
+      x: 366
+      y: 842
+    level: 78
+    monsters:
+    - name: Skeleton
+      level: 78
+    - name: Skeleton Knight
+      level: 78
+    - name: Living Armor
+      level: 78
+    - name: Frost Skeleton Brute
+      level: 78
+    - name: Saurian
+      level: 78
+    - name: Giant Saurian Sage
+      level: 78
+    - name: Rock Saurian
+      level: 78
+    - name: Rock Saurian Spinel
+      level: 78
+    - name: Sword Undead
+      level: 78
+    - name: Frost Corpse Punisher
+      level: 78
+    - name: Frost Corpse Torturer
+      level: 78
+    - name: Siren
+      level: 78
+    - name: Armored Insect
+      level: 1
+    - name: Pyro Slime
+      level: 78
+    - name: Freezing Slime
+      level: 78
+    - name: Maneater
+      level: 78
+    - name: Gorecyclops
+      level: 78
+    - name: Gorechimera
+      level: 78
+    - name: Skeleton Sorcerer
+      level: 78
+
+  - name: Rathnite Underground Waterway
+    ir: 80
+    abbrev: RF-RUW
+    location:
+      x: 363
+      y: 838
+    level: 80
+    monsters:
+    - name: Grim Goblin
+      level: 80
+    - name: Goblin Shaman
+      level: 80
+    - name: Goblin Aid Shaman
+      level: 80
+    - name: War-Ready Grimwarg
+      level: 80
+    - name: Maneater
+      level: 80
+    - name: War-Ready Gorecyclops
+      level: 80
+    - name: Sword Soldier Dwarf Orc
+      level: 80
+    - name: Blunt Soldier Dwarf Orc
+      level: 80
+    - name: Heavy Soldier Dwarf Orc
+      level: 80
+    - name: Squad Leader Dwarf Orc
+      level: 80
+
+  - name: Lakeside Grotto
+    ir: 75
+    abbrev: RF-LG
+    location:
+      x: 262
+      y: 819
+    level: 82
+    monsters:
+    - name: Wolf
+      level: 82
+    - name: Blue Newt
+      level: 82
+    - name: Strix
+      level: 82
+    - name: Ooze
+      level: 82
+    - name: Aqua Jelly
+      level: 82
+    - name: Acid Blob
+      level: 82
+    - name: Troll
+      level: 82
+    - name: Little Crag
+      level: 82
+    - name: Lindwurm
+      level: 82
+    - name: Frog
+      level: 1
+
+  - name: Ulta Ancient Watercourse
+    ir: 80
+    abbrev: RF-UAW
+    location:
+      x: 256
+      y: 819
+    level: 85
+    monsters:
+    - name: War-Ready Grimwarg
+      level: 85
+    - name: Saurian
+      level: 85
+    - name: Strix
+      level: 85
+    - name: Maneater
+      level: 85
+    - name: War-Ready Goremanticore
+      level: 85
+    - name: Brute Ape
+      level: 85
+    - name: Cragger
+      level: 85
+    - name: Little Crag
+      level: 85
+    - name: Giant Rat
+      level: 1
+
+  - name: Rathnite Columbarium
+    ir: 90
+    abbrev: RF-RC
+    location:
+      x: 311
+      y: 826
+    level: 85
+    monsters:
+    - name: Grim Goblin Fighter
+      level: 85
+    - name: Goblin Shaman
+      level: 85
+    - name: War-Ready Grimwarg
+      level: 85
+    - name: Maneater
+      level: 85
+    - name: War-Ready Gorecyclops
+      level: 85
+    - name: War-Ready Goremanticore
+      level: 85
+    - name: Sword Soldier Dwarf Orc
+      level: 85
+    - name: Blunt Soldier Dwarf Orc
+      level: 85
+    - name: Heavy Soldier Dwarf Orc
+      level: 85
+    - name: Ranged Soldier Dwarf Orc
+      level: 85
+    - name: Squad Leader Dwarf Orc
+      level: 85
+
+  - name: Demon Armor Camp
+    ir: 80
+    abbrev: RF-DAC
+    location:
+      x: 338
+      y: 806
+    level: 83
+    monsters:
+    - name: Subordinate War-Ready Gorecyclops
+      level: 83
+    - name: Heavy Soldier Dwarf Orc
+      level: 83
+    - name: Ranged Soldier Dwarf Orc
+      level: 83
+
+  - name: Beastmaster's Garden
+    ir: 80
+    abbrev: RF-BG
+    location:
+      x: 307
+      y: 837
+    level: 83
+    monsters:
+    - name: Subordinate War-Ready Goremanticore
+      level: 83
+    - name: Sword Soldier Dwarf Orc
+      level: 83
+
+attributes:
+  Pixie King:
+    type: Fellow
+    Slash: Resist
+    Blunt: Weak
+    Fire: Resist
+    Ice: Resist
+    Thunder: Weak
+    Darkness: Resist
+
+  Chimera:
+    type: Beast
+    Blunt: Weak
+    Fire: Weak
+    Thunder: Resist
+
+  White Chimera:
+    type: Beast
+    Blunt: Weak
+    Ice: Resist
+    Darkness: Weak
+
+  Dark Chimera:
+    type: Beast
+    Fire: Resist
+    Ice: Weak
+    Darkness: Resist
+
