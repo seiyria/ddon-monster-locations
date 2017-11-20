@@ -4,7 +4,8 @@ Vue.component('multiselect', VueMultiselect.default);
 var vue = new Vue({
     el: '#app',
     data: {
-        search: 'goblin',
+        search: '',
+        translations: { enemy: {} },
         currentMonsters: [],
         allMonsters: [],
         neededZones: [],
@@ -103,9 +104,53 @@ function updateWindowHash() {
     window.location.hash = '#' + encodeURIComponent(allMonsters);
 }
 
+function translationXMLToHash(xmlData) {
+    var translations = {};
+
+    _.each(xmlData.resource[0].message, ({ original, translation }) => {
+        translations[translation[0]._text] = original[0]._text;
+    });
+
+    return translations;
+}
+
+function loadKey(key) {
+    return JSON.parse(localStorage.getItem(key));
+}
+
+function saveKey(key, value) {
+    localStorage.setItem(key, JSON.stringify(value));
+}
+
 axios.get('monsters.yml')
     .then(res => {
-        vue.allMonsters = formatData(YAML.parse(res.data));
+        var allData = YAML.parse(res.data);
+
+        vue.allMonsters = formatData(allData);
+
+        var translations = allData.translations;
+
         loadPreviousMonsters();
         vue.loading = false;
+
+        return {
+            _commit: translations.commit,
+            enemy: 'https://cdn.rawgit.com/' + translations.repo + '/' + translations.commit + '/ui/00_message/enemy/enemy_name.xml'
+        };
+    }).then(({ _commit, enemy }) => {
+        var oldEnemyTranslationData = loadKey(_commit + '-enemyTranslation');
+        var enemyPromise = oldEnemyTranslationData ? Promise.resolve(oldEnemyTranslationData) : axios.get(enemy);
+        return Promise.all([Promise.resolve(_commit), enemyPromise]);
+
+    }).then(([ _commit, enemy ]) => {
+        if(enemy.data) {
+            vue.translations.enemy = translationXMLToHash(xmlToJSON.parseString(enemy.data));
+        } else {
+            vue.translations.enemy = enemy;
+        }
+
+        console.log(vue.translations.enemy);
+
+        saveKey(_commit + '-enemyTranslation', vue.translations.enemy);
+
     });

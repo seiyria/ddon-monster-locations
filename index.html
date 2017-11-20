@@ -18,6 +18,7 @@
     <script src="https://unpkg.com/lodash@4.17.4"></script>
     <script src="https://unpkg.com/clipboard-polyfill@2.3.0/build/clipboard-polyfill.js"></script>
     <script src="https://unpkg.com/yamljs@0.3.0/dist/yaml.min.js"></script>
+    <script src="https://unpkg.com/xmltojson@1.3.4"></script>
     <script src="https://unpkg.com/axios@0.17.1/dist/axios.min.js"></script>
 </head>
 <body>
@@ -87,7 +88,7 @@
             <div class="col w-100">
                 <div class="card w-100">
                     <div class="card-header">
-                        {{ monster.name }}
+                        <span v-if="translations.enemy[monster.data.name]">{{ translations.enemy[monster.data.name] }}</span> {{ monster.name }}
                         <span class="float-right">
                             {{ monster.regionData.name }} ~ Lv. {{ monster.regionData.level }} (Schedule: {{ monster.data.timePeriod || 'always' }}, X: {{ monster.regionData.location.x }}, Y: {{ monster.regionData.location.y }})
                         </span>
@@ -150,6 +151,8 @@
                 </div>
             </div>
         </div>
+
+        <div class="mb-5"></div>
     </main>
 
     <nav class="navbar fixed-bottom navbar-expand navbar-dark bg-dark d-none d-md-block d-l-block d-xl-block p-0">

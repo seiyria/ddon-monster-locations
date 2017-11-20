@@ -1,4 +1,8 @@
 
+translations:
+  commit: a27f3574
+  repo: riftcrystal/DDON-Translation
+
 regions:
 - name: Hidell Plains
   subregions:
@@ -1271,7 +1275,7 @@ regions:
       level: 28
     - name: Skeleton Sorcerer
       level: 28
-    - name: Skeleton Leech
+    - name: Leech
       level: 20
     - name: Skeleton Mage
       level: 28
