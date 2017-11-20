@@ -148,9 +148,7 @@ axios.get('monsters.yml')
         } else {
             vue.translations.enemy = enemy;
         }
-
-        console.log(vue.translations.enemy);
-
+    
         saveKey(_commit + '-enemyTranslation', vue.translations.enemy);
 
     });
