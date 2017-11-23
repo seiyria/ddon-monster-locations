@@ -3642,6 +3642,334 @@ regions:
     - name: Skeleton Mage
       level: 68
 
+- name: Bloodbane Isle
+  subregions:
+
+  - name: Bloodbane Isle
+    abbrev: BI-BI
+    location:
+      x: 46
+      y: 96
+    level: 60
+    monsters:
+    - name: Hobgoblin Fighter
+      level: 60
+    - name: Infected Hobgoblin
+      level: 57
+    - name: Infected Hobgoblin Fighter
+      level: 57
+    - name: Infected Sling Hobgoblin
+      level: 62
+    - name: Direwolf
+      level: 57
+    - name: Infected Direwolf
+      level: 57
+    - name: Saurian
+      level: 60
+    - name: Saurian Sage
+      level: 60
+    - name: Blue Newt
+      level: 62
+    - name: Large Newt
+      level: 62
+    - name: Infected Snow Harpy
+      level: 57
+    - name: Griffin
+      level: 60
+    - name: Black Griffin
+      level: 62
+    - name: Infected Griffin
+      level: 65
+    - name: Lindwurm
+      level: 62
+
+  - name: Bloodbane Isle Precipice
+    abbrev: BI-BIP
+    location:
+      x: 28
+      y: 71
+    level: 63
+    monsters:
+    - name: Infected Hobgoblin Fighter
+      level: 63
+    - name: Infected Direwolf
+      level: 63
+    - name: Strix
+      level: 63
+    - name: Infected Snow Harpy
+      level: 63
+    - name: Black Griffin
+      level: 63
+
+  - name: Bloodbane Isle Summit
+    abbrev: BI-BIS
+    location:
+      x: 71
+      y: 72
+    level: 64
+    monsters:
+    - name: Grimwarg
+      level: 64
+    - name: Bolt Grimwarg
+      level: 64
+
+  - name: Corrupted Ground Facing the Waterfall
+    abbrev: BI-CGFTW
+    location:
+      x: 43
+      y: 92
+    level: 61
+    monsters:
+    - name: Infected Hobgoblin Fighter
+      level: 60
+    - name: Infected Sling Hobgoblin
+      level: 60
+
+  - name: Predators' Lowland
+    abbrev: BI-PL
+    location:
+      x: 46
+      y: 105
+    level: 62
+    monsters:
+    - name: Nightmare
+      level: 63
+
+  - name: Wing Wind Plateau
+    abbrev: BI-WWP
+    location:
+      x: ???
+      y: ???
+    level: 63
+    monsters: []
+
+  - name: Predators' Lowland
+    abbrev: BI-PL
+    location:
+      x: 46
+      y: 105
+    level: 62
+    monsters:
+    - name: Nightmare
+      level: 63
+
+  - name: Infected Den
+    abbrev: BI-ID
+    location:
+      x: 51
+      y: 86
+    level: 56
+    monsters:
+    - name: Infected Hobgoblin Fighter
+      level: 56
+    - name: Infected Sling Hobgoblin
+      level: 56
+    - name: Infected Direwolf
+      level: 56
+    - name: Infected Snow Harpy
+      level: 56
+    - name: Infected Gorecyclops
+      level: 56
+    - name: Ogre
+      level: 56
+    - name: Giant Rat
+      level: 56
+
+  - name: Frigid Ancient Passage
+    ir: 15
+    abbrev: BI-FAP
+    location:
+      x: 59
+      y: 111
+    level: 60
+    monsters:
+    - name: Frost Skeleton
+      level: 60
+    - name: Frost Corpse Punisher
+      level: 60
+    - name: Frost Corpse Torturer
+      level: 60
+    - name: Aqua Jelly
+      level: 60
+    - name: Ghoul
+      level: 60
+    - name: Wight
+      level: 60
+    - name: Frost Machina
+      level: 60
+
+  - name: Picturesque Grotto
+    ir: 15
+    abbrev: BI-PG
+    location:
+      x: 43
+      y: 87
+    level: 60
+    monsters:
+    - name: Grimwarg
+      level: 60
+    - name: Sulfur Saurian
+      level: 60
+    - name: Mudman
+      level: 60
+    - name: Gargoyle
+      level: 60
+    - name: Aqua Jelly
+      level: 60
+    - name: Golem
+      level: 60
+    - name: Cockatrice
+      level: 60
+    - name: Giant Rat
+      level: 60
+    - name: Spider
+      level: 60
+
+  - name: Cesspool of Filth
+    ir: 15
+    abbrev: BI-COF
+    location:
+      x: 60
+      y: 107
+    level: 60
+    monsters:
+    - name: Infected Hobgoblin
+      level: 60
+    - name: Infected Hobgoblin Fighter
+      level: 60
+    - name: Infected Sling Hobgoblin
+      level: 60
+    - name: Bolt Skeleton
+      level: 60
+    - name: Blue Newt
+      level: 60
+    - name: Large Newt
+      level: 60
+    - name: Snow Harpy
+      level: 60
+    - name: Electric Slime
+      level: 60
+    - name: Maneater
+      level: 60
+    - name: Infected Gorecyclops
+      level: 60
+    - name: Chimera
+      level: 60
+
+  - name: Sunlit Underground Cave
+    abbrev: BI-SUC
+    location:
+      x: 52
+      y: 71
+    level: 63
+    monsters:
+    - name: Infected Hobgoblin
+      level: 63
+    - name: Infected Hobgoblin Fighter
+      level: 63
+    - name: Infected Direwolf
+      level: 63
+    - name: Bolt Grimwarg
+      level: 63
+    - name: Infected Snow Harpy
+      level: 63
+    - name: Acid Blob
+      level: 63
+    - name: Infected Gorecyclops
+      level: 62
+    - name: Spider
+      level: 63
+
+  - name: Crypt of Murmurs
+    ir: 20
+    abbrev: BI-COM
+    location:
+      x: 53
+      y: 88
+    level: 63
+    monsters:
+    - name: Hobgoblin
+      level: 63
+    - name: Hobgoblin Leader
+      level: 63
+    - name: Sling Hobgoblin
+      level: 63
+    - name: Ghost Mail
+      level: 63
+    - name: Saurian
+      level: 63
+    - name: Saurian Sage
+      level: 63
+    - name: Eliminator
+      level: 63
+    - name: Acid Blob
+      level: 63
+    - name: Maneater
+      level: 63
+    - name: Infected Gorecyclops
+      level: 63
+    - name: Infected Griffin
+      level: 63
+
+  - name: Dried Well by the Tower
+    ir: 20
+    abbrev: BI-DWBTT
+    location:
+      x: 65
+      y: 96
+    level: 63
+    monsters:
+    - name: Infected Hobgoblin
+      level: 63
+    - name: Infected Hobgoblin Fighter
+      level: 63
+    - name: Infected Sling Hobgoblin
+      level: 63
+    - name: Infected Direwolf
+      level: 63
+    - name: Eliminator
+      level: 63
+    - name: Infected Snow Harpy
+      level: 63
+    - name: Infected Gorecyclops
+      level: 63
+
+  - name: Infected Den Depths
+    ir: 25
+    abbrev: BI-IDD
+    location:
+      x: ???
+      y: ???
+    level: 65
+    monsters: []
+
+  - name: The Tunnel Across the Bridge
+    ir: 30
+    abbrev: BI-TTATB
+    location:
+      x: ???
+      y: ???
+    level: 65
+    monsters: []
+
+  - name: Waterfall Echo Cavern
+    ir: 35
+    abbrev: BI-WEC
+    location:
+      x: ???
+      y: ???
+    level: 68
+    monsters: []
+
+  - name: Fungal Colony Caves
+    ir: 35
+    abbrev: BI-FCC
+    location:
+      x: ???
+      y: ???
+    level: 68
+    monsters: []
+
 - name: Rathnite Foothills
   subregions:
 
