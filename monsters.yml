@@ -3973,19 +3973,65 @@ regions:
     ir: 30
     abbrev: BI-TTATB
     location:
-      x: ???
-      y: ???
+      x: 48
+      y: 73
     level: 65
-    monsters: []
+    monsters:
+    - name: Infected Hobgoblin
+      level: 65
+    - name: Infected Hobgoblin Fighter
+      level: 65
+    - name: Infected Sling Hobgoblin
+      level: 65
+    - name: Infected Direwolf
+      level: 65
+    - name: Infected Snow Harpy
+      level: 65
+    - name: Infected Gorecyclops
+      level: 65
+    - name: Rock Saurian Spinel
+      level: 65
+    - name: Rock Saurian
+      level: 65
+    - name: Mudman
+      level: 65
+    - name: Aqua Jelly
+      level: 65
+    - name: Maneater
+      level: 65
+    - name: Lindwurm
+      level: 65
+    - name: Spider
+      level: 65
 
   - name: Waterfall Echo Cavern
     ir: 35
     abbrev: BI-WEC
     location:
-      x: ???
-      y: ???
+      x: 36
+      y: 97
     level: 68
-    monsters: []
+    monsters:
+    - name: Infected Hobgoblin Fighter
+      level: 68
+    - name: Infected Sling Hobgoblin
+      level: 68
+    - name: Infected Direwolf
+      level: 68
+    - name: Bolt Grimwarg
+      level: 68
+    - name: Infected Snow Harpy
+      level: 68
+    - name: Acid Blob
+      level: 68
+    - name: Infected Gorecyclops
+      level: 68
+    - name: Chimera
+      level: 68
+    - name: Ghoul
+      level: 68
+    - name: Spider
+      level: 68
 
   - name: Fungal Colony Caves
     ir: 35
