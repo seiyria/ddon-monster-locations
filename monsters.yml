@@ -4037,10 +4037,22 @@ regions:
     ir: 35
     abbrev: BI-FCC
     location:
-      x: ???
-      y: ???
+      x: 28
+      y: 78
     level: 68
-    monsters: []
+    monsters:
+    - name: Infected Hobgoblin
+      level: 68
+    - name: Infected Direwolf
+      level: 68
+    - name: Bolt Grimwarg
+      level: 68
+    - name: Infected Snow Harpy
+      level: 68
+    - name: Troll
+      level: 68
+    - name: Infected Behemoth
+      level: 68
 
 - name: Rathnite Foothills
   subregions:
