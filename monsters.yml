@@ -3938,10 +3938,34 @@ regions:
     ir: 25
     abbrev: BI-IDD
     location:
-      x: ???
-      y: ???
+      x: 51
+      y: 86
     level: 65
-    monsters: []
+    monsters:
+    - name: Infected Hobgoblin
+      level: 65
+    - name: Infected Hobgoblin Fighter
+      level: 65
+    - name: Infected Sling Hobgoblin
+      level: 65
+    - name: Infected Direwolf
+      level: 65
+    - name: Saurian
+      level: 65
+    - name: Giant Saurian
+      level: 65
+    - name: Saurian Sage
+      level: 65
+    - name: Infected Snow Harpy
+      level: 65
+    - name: Maneater
+      level: 65
+    - name: Black Griffin
+      level: 65
+    - name: Ogre
+      level: 65
+    - name: Infected Behemoth
+      level: 65
 
   - name: The Tunnel Across the Bridge
     ir: 30
