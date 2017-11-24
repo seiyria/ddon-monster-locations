@@ -3738,10 +3738,12 @@ regions:
   - name: Wing Wind Plateau
     abbrev: BI-WWP
     location:
-      x: ???
-      y: ???
+      x: 59
+      y: 96
     level: 63
-    monsters: []
+    monsters:
+    - name: Variant Infected Gorecyclops
+      level: 65
 
   - name: Predators' Lowland
     abbrev: BI-PL
