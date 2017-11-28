@@ -5003,6 +5003,309 @@ regions:
     - name: Severely Infected Demon
       level: 78
 
+- name: Kingal Canyon
+  subregions:
+
+  - name: Kingal Canyon
+    abbrev: KC-KC
+    location:
+      x: 270
+      y: 277
+    level: 70
+    monsters:
+    - name: Pixie Jabber
+      level: 75
+    - name: Severely Infected Pixie
+      level: 78
+    - name: High Pixie Biff
+      level: 75
+    - name: High Pixie Zolda
+      level: 75
+    - name: High Pixie Pow
+      level: 75
+    - name: Grimwarg
+      level: 70
+    - name: Shadow Wolf
+      level: 68
+    - name: Frost Skeleton
+      level: 70
+    - name: Frost Skeleton Brute
+      level: 70
+    - name: Rock Saurian
+      level: 68
+    - name: Stout Undead
+      level: 75
+    - name: Gargoyle
+      level: 68
+    - name: Siren
+      level: 75
+    - name: Shadow Harpy
+      level: 68
+    - name: Shadow Goblin Fighter
+      level: 78
+    - name: Shadow Sling Goblin
+      level: 75
+    - name: Shadow Goblin Leader
+      level: 75
+    - name: Highly Mutated Gorecyclops
+      level: 78
+    - name: Ghost
+      level: 75
+    - name: Grigori
+      level: 70
+    - name: Bearded Grigori
+      level: 75
+    - name: Pig
+      level: 71
+    - name: Piglet
+      level: 70
+    - name: Frog
+      level: 70
+    - name: Wild Boar
+      level: 75
+    - name: Skeleton Mage
+      level: 75
+
+  - name: Kingal West Bank
+    abbrev: KC-KWB
+    location:
+      x: 263
+      y: 301
+    level: 70
+    monsters:
+    - name: Mutated Grimwarg
+      level: 70
+    - name: Highly Mutated Griffin
+      level: 70
+
+  - name: Crushing Rock Riverbank
+    abbrev: KC-CRR
+    location:
+      x: 276
+      y: 308
+    level: 70
+    monsters:
+    - name: Mutated Shadow Harpy
+      level: 70
+
+  - name: Carrion Bank
+    abbrev: KC-CB
+    location:
+      x: ???
+      y: ???
+    level: 70
+    monsters:
+    - name: Mutated Rock Saurian
+      level: 70
+    - name: Mutated Rock Saurian Spinel
+      level: 70
+
+  - name: Great Temple Plaza
+    abbrev: KC-GTP
+    location:
+      x: 306
+      y: 284
+    level: 73
+    monsters:
+    - name: Mutated Grigori
+      level: 73
+
+  - name: Watersdeep Old Road
+    abbrev: KC-WOR
+    location:
+      x: 294
+      y: 302
+    level: 73
+    monsters:
+    - name: Mutated Grigori
+      level: 73
+    - name: Mutated Bearded Grigori
+      level: 73
+
+  - name: Deserted Village of Kraag
+    abbrev: KC-DVOK
+    location:
+      x: 258
+      y: 266
+    level: 75
+    monsters:
+    - name: Mutated Phindymian Fighter
+      level: 75
+    - name: Mutated Phindymian Sorcerer
+      level: 75
+    - name: Mutated Phindymian Element Archer
+      level: 75
+
+  - name: Dancing Circle
+    ir: 60
+    abbrev: KC-DC
+    location:
+      x: ???
+      y: ???
+    level: 78
+    monsters:
+    - name: Severely Infected Demon
+      level: 78
+
+  - name: Nebula Temple
+    ir: 20
+    abbrev: KC-NT
+    location:
+      x: 280
+      y: 314
+    level: 70
+    monsters:
+    - name: Shadow Wolf
+      level: 70
+    - name: Gargoyle
+      level: 70
+    - name: Shadow Harpy
+      level: 70
+    - name: Shadow Goblin
+      level: 70
+    - name: Shadow Goblin Fighter
+      level: 70
+    - name: Maneater
+      level: 70
+    - name: Gorecyclops
+      level: 70
+    - name: Grigori
+      level: 70
+    - name: Bearded Grigori
+      level: 70
+    - name: Giant Rat
+      level: 70
+    - name: Manticore
+      level: 70
+
+  - name: Grinmel Ruins
+    ir: 50
+    abbrev: KC-GR
+    location:
+      x: 305
+      y: 307
+    level: 73
+    monsters:
+    - name: Grimwarg
+      level: 73
+    - name: Shadow Wolf
+      level: 73
+    - name: Flame Corpse Punisher
+      level: 73
+    - name: Shadow Harpy
+      level: 73
+    - name: Maneater
+      level: 73
+    - name: Empress Ghost
+      level: 73
+    - name: Bearded Grigori
+      level: 73
+    - name: Giant Rat
+      level: 73
+    - name: Drake
+      level: 73
+
+  - name: Shadolean Great Temple
+    ir: 20
+    abbrev: KC-SGT
+    location:
+      x: 314
+      y: 282
+    level: 75
+    monsters:
+    - name: Grimwarg
+      level: 75
+    - name: Shadow Wolf
+      level: 75
+    - name: Rock Saurian
+      level: 75
+    - name: Rock Saurian Spinel
+      level: 75
+    - name: Gargoyle
+      level: 75
+    - name: Shadow Harpy
+      level: 75
+    - name: Maneater
+      level: 75
+    - name: Gorecyclops
+      level: 73
+    - name: Gorechimera
+      level: 73
+    - name: Behemoth
+      level: 75
+    - name: Grigori
+      level: 75
+    - name: Bearded Grigori
+      level: 75
+
+  - name: Amburos Great Ruins
+    ir: 60
+    abbrev: KC-AGR
+    location:
+      x: 299
+      y: 279
+    level: 75
+    monsters:
+    - name: Pixie Jabber
+      level: 75
+    - name: High Pixie Biff
+      level: 75
+    - name: Eliminator Slay
+      level: 75
+    - name: Siren
+      level: 75
+    - name: Oil Jelly
+      level: 75
+    - name: Maneater
+      level: 75
+    - name: Witch
+      level: 75
+    - name: Gigant Machina
+      level: 75
+
+  - name: Hadin Underground Old Road
+    ir: 15
+    abbrev: KC-HUOR
+    location:
+      x: 283
+      y: 279
+    level: 78
+    monsters:
+    - name: Severely Infected Pixie
+      level: 78
+    - name: High Pixie Biff
+      level: 78
+    - name: High Pixie Zolda
+      level: 78
+    - name: High Pixie Pow
+      level: 78
+    - name: Skeleton Knight
+      level: 78
+    - name: Skeleton Brute
+      level: 78
+    - name: Maneater
+      level: 78
+    - name: Ghost
+      level: 78
+    - name: Grigori
+      level: 78
+    - name: Severely Infected Demon
+      level: 78
+    - name: Bearded Grigori
+      level: 78
+    - name: Manticore
+      level: 78
+
+  - name: Ancient Underground Shrine
+    areaLevel: 14
+    ir: 70
+    abbrev: MF-AUS
+    location:
+      x: ???
+      y: ???
+    level: 80
+    monsters: []
+
 - name: Rathnite Foothills
   subregions:
 
