@@ -41,7 +41,7 @@ function formatData(data) {
 
                 return {
                     regionName: sumName  + ' ~ ' + 'Lv. ' + level,
-                    monsterInfo: _.sortBy(_.map(monsters, ({ name, level, timePeriod, events, coordinates }) => {
+                    monsterInfo: _.sortBy(_.map(monsters || [], ({ name, level, timePeriod, events, coordinates }) => {
                         return {
                             name: name + ' ~ Lv. ' + level + ' (' + abbrev + ')',
                             data: {
