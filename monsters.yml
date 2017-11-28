@@ -4699,6 +4699,310 @@ regions:
     - name: Giant Rat
       level: 80
 
+- name: Morrow Forest
+  subregions:
+
+  - name: Morrow Forest
+    abbrev: MF-MF
+    location:
+      x: 189
+      y: 306
+    level: 70
+    monsters:
+    - name: Infected Hobgoblin
+      level: 70
+    - name: Infected Hobgoblin Fighter
+      level: 70
+    - name: Infected Sling Hobgoblin
+      level: 70
+    - name: Severely Infected Pixie
+      level: 70
+    - name: Infected Direwolf
+      level: 68
+    - name: Severely Infected Warg
+      level: 70
+    - name: Dark Skeleton
+      level: 68
+    - name: Dark skeleton Brute
+      level: 70
+    - name: Infected Snow Harpy
+      level: 70
+    - name: Severely Infected Stymphalides
+      level: 73
+    - name: Infected Gorecyclops
+      level: 70
+    - name: Mutated Severely Infected Gorecyclops
+      level: 78
+    - name: Infected Griffin
+      level: 78
+    - name: Wight
+      level: 70
+    - name: Ghost
+      level: 68
+    - name: Spider
+      level: 70
+    - name: Chicken
+      level: 70
+    - name: Wild Boar
+      level: 68
+
+  - name: Sage's Gravestone
+    abbrev: MF-SG
+    location:
+      x: 195
+      y: 317
+    level: 70
+    monsters:
+    - name: Mutated Infected Snow Harpy
+      level: 70
+
+  - name: Forest Sprite's Refuge
+    abbrev: MF-FSR
+    location:
+      x: 186
+      y: 319
+    level: 70
+    monsters:
+    - name: Mutated Infected Hobgoblin Fighter
+      level: 70
+    - name: Mutated Infected Sling Hobgoblin
+      level: 70
+
+  - name: Vacant Green Forest
+    abbrev: MF-VGF
+    location:
+      x: 177
+      y: 321
+    level: 70
+    monsters:
+    - name: Mutated Severely Infected Stymphalides
+      level: 70
+
+  - name: Pixies' Camp
+    abbrev: MF-PC
+    location:
+      x: 214
+      y: 308
+    level: 70
+    monsters:
+    - name: Mutated Severely Infected Pixie
+      level: 70
+
+  - name: Deserted Village of Aethrig
+    abbrev: MF-DVOA
+    location:
+      x: 209
+      y: 299
+    level: 73
+    monsters:
+    - name: Mutated Phindymian Fighter
+      level: 73
+    - name: Mutated Phindymian Seeker
+      level: 73
+
+  - name: Morrow Old Ruins
+    ir: 50
+    abbrev: MF-MOR
+    location:
+      x: 224
+      y: 298
+    level: 73
+    monsters:
+    - name: Severely Infected Stymphalides
+      level: 73
+    - name: Severely Infected Gorecyclops
+      level: 73
+
+  - name: Suffering Forest
+    abbrev: MF-SF
+    location:
+      x: 202
+      y: 288
+    level: 75
+    monsters:
+    - name: Mutated Phindymian Priest
+      level: 73
+    - name: Mutated Phindymian Defender
+      level: 73
+    - name: Mutated Phindymian Warrior
+      level: 73
+
+  - name: Infected Basin
+    ir: 65
+    abbrev: MF-IB
+    location:
+      x: 194
+      y: 279
+    level: 78
+    monsters:
+    - name: Severely Infected Behemoth
+      level: 78
+
+  - name: Dark Woods Great Depths
+    areaLevel: 14
+    ir: 80
+    abbrev: MF-DWGD
+    location:
+      x: 209
+      y: 276
+    level: 80
+    monsters: []
+
+  - name: Invading Demons Cave
+    ir: 45
+    abbrev: MF-IDC
+    location:
+      x: 185
+      y: 324
+    level: 70
+    monsters:
+    - name: Infected Hobgoblin
+      level: 70
+    - name: Infected Hobgoblin Fighter
+      level: 70
+    - name: Infected Sling Hobgoblin
+      level: 70
+    - name: Severely Infected Pixie
+      level: 70
+    - name: Severely Infected Warg
+      level: 70
+    - name: Severely Infected Stymphalides
+      level: 70
+    - name: Armored Insect
+      level: 70
+    - name: Maneater
+      level: 70
+    - name: Troll
+      level: 70
+    - name: Infected Griffin
+      level: 70
+
+  - name: Morrow Cavern
+    ir: 15
+    abbrev: MF-MC
+    location:
+      x: 173
+      y: 319
+    level: 73
+    monsters:
+    - name: Infected Hobgoblin
+      level: 73
+    - name: Infected Hobgoblin Fighter
+      level: 73
+    - name: Infected Sling Hobgoblin
+      level: 73
+    - name: Severely Infected Pixie
+      level: 73
+    - name: Severely Infected Warg
+      level: 73
+    - name: Severely Infected Stymphalides
+      level: 73
+    - name: Infected Direwolf
+      level: 73
+    - name: Infected Snow Harpy
+      level: 73
+    - name: Maneater
+      level: 73
+    - name: Severely Infected Gorecyclops
+      level: 73
+    - name: Spider
+      level: 73
+    - name: Mole Troll
+      level: 73
+
+  - name: Sauzanel Infected Woods
+    ir: 55
+    abbrev: MF-SIW
+    location:
+      x: 198
+      y: 299
+    level: 75
+    monsters:
+    - name: Infected Hobgoblin Fighter
+      level: 75
+    - name: Infected Sling Hobgoblin
+      level: 75
+    - name: Severely Infected Pixie
+      level: 75
+    - name: Infected Direwolf
+      level: 75
+    - name: Severely Infected Stymphalides
+      level: 75
+    - name: Phindymian Hunter
+      level: 75
+    - name: Phindymian Priest
+      level: 75
+    - name: Phindymian Warrior
+      level: 75
+    - name: Infected Gorecyclops
+      level: 75
+    - name: Severely Infected Behemoth
+      level: 75
+
+  - name: Deepney Great Forest
+    ir: 60
+    abbrev: MF-DGF
+    location:
+      x: 183
+      y: 293
+    level: 75
+    monsters:
+    - name: Infected Hobgoblin Fighter
+      level: 75
+    - name: Infected Sling Hobgoblin
+      level: 75
+    - name: Severely Infected Pixie
+      level: 75
+    - name: Severely Infected Stymphalides
+      level: 75
+    - name: Armored Insect
+      level: 75
+    - name: Severely Infected Gorecyclops
+      level: 75
+    - name: Infected Behemoth
+      level: 75
+    - name: Severely Infected Demon
+      level: 75
+
+  - name: Northern Forest ノーザナス侵林
+    ir: 65
+    abbrev: MF-NF
+    location:
+      x: 173
+      y: 319
+    level: 78
+    monsters:
+    - name: Severely Infected Pixie
+      level: 78
+    - name: Infected Direwolf
+      level: 78
+    - name: Severely Infected Warg
+      level: 78
+    - name: Severely Infected Stymphalides
+      level: 78
+    - name: Phindymian Fighter
+      level: 78
+    - name: Phindymian Seeker
+      level: 78
+    - name: Phindymian Hunter
+      level: 78
+    - name: Phindymian Priest
+      level: 78
+    - name: Phindymian Defender
+      level: 78
+    - name: Phindymian Sorcerer
+      level: 78
+    - name: Phindymian Warrior
+      level: 78
+    - name: Phindymian Element Archer
+      level: 78
+    - name: Infected Gorecyclops
+      level: 78
+    - name: Severely Infected Griffin
+      level: 78
+    - name: Severely Infected Demon
+      level: 78
+
 - name: Rathnite Foothills
   subregions:
 
