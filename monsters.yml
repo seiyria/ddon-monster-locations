@@ -4054,6 +4054,651 @@ regions:
     - name: Infected Behemoth
       level: 68
 
+- name: Elan Water Grove
+  subregions:
+
+  - name: Elan Water Grove
+    abbrev: EWG-EWG
+    location:
+      x: 187
+      y: 380
+    level: 70
+    monsters:
+    - name: Bolt Skeleton Brute
+      level: 72
+    - name: Sulfur Saurian
+      level: 68
+    - name: Giant Sulfur Saurian
+      level: 73
+    - name: Stymphalides
+      level: 70
+    - name: Moth
+      level: 68
+    - name: Mandragora
+      level: 68
+    - name: Foot-Biter
+      level: 68
+    - name: Mole Troll
+      level: 70
+    - name: Spineback
+      level: 70
+    - name: Mutated Little Spine
+      level: 70
+    - name: Ghost
+      level: 68
+    - name: Chicken
+      level: 68
+    - name: Frog
+      level: 68
+    - name: Wild Boar
+      level: 68
+    - name: Skeleton Sorcerer
+      level: 72
+    - name: Warg
+      level: 70
+    - name: Bolt Skeleton
+      level: 68
+
+  - name: Tumult Site
+    abbrev: EWG-TS
+    location:
+      x: 197
+      y: 383
+    level: 70
+    monsters:
+    - name: Mutated Little Spine
+      level: 70
+
+  - name: Water Beasts' Habitat
+    abbrev: EWG-WBH
+    location:
+      x: 182
+      y: 390
+    level: 70
+    monsters:
+    - name: Moth
+      level: 70
+    - name: Mutated Little Spine
+      level: 70
+
+  - name: Demon Wolf Territory
+    abbrev: EWG-DWT
+    location:
+      x: 182
+      y: 390
+    level: 70
+    monsters:
+    - name: Mutated Warg
+      level: 70
+
+  - name: Purple Flower Garden
+    abbrev: EWG-PFG
+    location:
+      x: 164
+      y: 365
+    level: 70
+    monsters:
+    - name: Moth
+      level: 70
+    - name: Spineback
+      level: 70
+
+  - name: Buzzing Plateau
+    abbrev: EWG-BP
+    location:
+      x: 171
+      y: 398
+    level: 73
+    monsters:
+    - name: Mutated Stymphalides
+      level: 73
+
+  - name: Forgotten Abandoned Village
+    abbrev: EWG-FAV
+    location:
+      x: 188
+      y: 400
+    level: 73
+    monsters:
+    - name: Mutated Gargoyle
+      level: 73
+
+  - name: Shimmering Waterfall
+    ir: 50
+    abbrev: EWG-SW
+    location:
+      x: 197
+      y: 406
+    level: 73
+    monsters:
+    - name: Bifrest
+      level: 73
+
+  - name: Riverside of Dappled Sunlight
+    areaLevel: 11
+    abbrev: EWG-RODS
+    location:
+      x: ???
+      y: ???
+    level: 75
+    monsters: []
+
+  - name: Before Elan Front Gate
+    areaLevel: 12
+    abbrev: EWG-BEFG
+    location:
+      x: ???
+      y: ???
+    level: 75
+    monsters: []
+
+  - name: Visiting Square
+    ir: 80
+    areaLevel: 14
+    abbrev: EWG-VS
+    location:
+      x: ???
+      y: ???
+    level: 80
+    monsters: []
+
+  - name: Path to Morrow
+    ir: 15
+    abbrev: EWG-PTM
+    location:
+      x: 176
+      y: 355
+    level: 68
+    monsters:
+    - name: Warg
+      level: 68
+    - name: Stymphalides
+      level: 68
+    - name: Moth
+      level: 68
+    - name: Mole Troll
+      level: 68
+
+  - name: Dancing Rainbow Cave
+    ir: 45
+    abbrev: EWG-DRC
+    location:
+      x: 171
+      y: 382
+    level: 70
+    monsters:
+    - name: Warg
+      level: 70
+    - name: Skeleton Knight
+      level: 70
+    - name: Skeleton Brute
+      level: 70
+    - name: Armored Insect
+      level: 70
+    - name: Maneater
+      level: 70
+    - name: Footbiter
+      level: 70
+    - name: Little Spine
+      level: 70
+
+  - name: Wisteria Arbor Withering Well
+    ir: 50
+    abbrev: EWG-WAWW
+    location:
+      x: 186
+      y: 398
+    level: 73
+    monsters:
+    - name: Saurian Sage
+      level: 73
+    - name: Lux Corpse Torturer
+      level: 73
+    - name: Gargoyle
+      level: 73
+    - name: Maneater
+      level: 73
+    - name: Foot-Biter
+      level: 73
+    - name: Wight
+      level: 73
+    - name: Lindwurm
+      level: 73
+    - name: Frog
+      level: 73
+
+  - name: Jungle Limestone Caves
+    ir: 55
+    areaLevel: 9
+    abbrev: EWG-JLC
+    location:
+      x: ???
+      y: ???
+    level: 75
+    monsters: []
+
+  - name: Old Ferryman's Haunt
+    ir: 60
+    areaLevel: 11
+    abbrev: EWG-OFH
+    location:
+      x: ???
+      y: ???
+    level: 75
+    monsters: []
+
+  - name: Elan Quarry Cave
+    ir: 65
+    areaLevel: 13
+  abbrev: EWG-EQC
+    location:
+      x: ???
+      y: ???
+    level: 78
+    monsters: []
+
+- name: Farana Plains
+  subregions:
+
+  - name: Farana Plains
+    abbrev: FP-FP
+    location:
+      x: 235
+      y: 370
+    level: 70
+    monsters:
+    - name: Pixie
+      level: 67
+    - name: Pixie Biff
+      level: 68
+    - name: Pixie Din
+      level: 68
+    - name: Pixie Pow
+      level: 68
+    - name: Pixie Jabber
+      level: 68
+    - name: Bolt Grimwarg
+      level: 69
+    - name: Skeleton Mage
+      level: 69
+    - name: Skeleton Sorcerer
+      level: 70
+    - name: Flame Skeleton
+      level: 69
+    - name: Flame Skeleton Brute
+      level: 70
+    - name: Saurian
+      level: 68
+    - name: Blue Newt
+      level: 70
+    - name: Large Newt
+      level: 70
+    - name: Mudman
+      level: 73
+    - name: Strix
+      level: 70
+    - name: Gorecyclops
+      level: 73
+    - name: Ghost
+      level: 69
+    - name: Rabbit
+      level: 10
+    - name: Buck
+      level: 70
+    - name: Doe
+      level: 70
+    - name: Pig
+      level: 71
+    - name: Piglet
+      level: 70
+    - name: Chicken
+      level: 68
+    - name: Goat
+      level: 68
+    - name: Frog
+      level: 73
+    - name: Wild Boar
+      level: 10
+
+  - name: Old Residence Ruins
+    abbrev: FP-ORP
+    location:
+      x: 225
+      y: 357
+    level: 70
+    monsters:
+    - name: Mutated Pixie Biff
+      level: 70
+    - name: Mutated Pixie Din
+      level: 70
+    - name: Mutated Pixie Jabber
+      level: 70
+
+  - name: Former Arena
+    abbrev: FP-FA
+    location:
+      x: 254
+      y: 381
+    level: 70
+    monsters:
+    - name: Highly Mutated Nightmare
+      level: 70
+
+  - name: Newt Den
+    abbrev: FP-ND
+    location:
+      x: 277
+      y: 382
+    level: 70
+    monsters:
+    - name: Mutated Blue Newt
+      level: 70
+    - name: Mutated Large Newt
+      level: 70
+
+  - name: Dark Armor Crag
+    abbrev: FP-DAC
+    location:
+      x: 285
+      y: 367
+    level: 73
+    monsters:
+    - name: Mutated Ghost Mail
+      level: 73
+    - name: Mutated Mudman
+      level: 73
+
+  - name: Shell Dragon's Bog
+    ir: 55
+    abbrev: FP-SDB
+    location:
+      x: 278
+      y: 352
+    level: 75
+    monsters:
+    - name: Tarasque
+      level: 75
+
+  - name: Great Wings Valley
+    abbrev: FP-GWV
+    location:
+      x: 270
+      y: 398
+    level: 78
+    monsters:
+    - name: Highly Mutated Black Griffon
+      level: 78
+
+  - name: Central Farana Sandbank
+    areaLevel: 14
+    abbrev: FP-CFS
+    location:
+      x: ???
+      y: ???
+    level: 80
+    monsters: []
+
+  - name: Dunhain's Hall of Trials
+    ir: 15
+    abbrev: FP-DHOT
+    location:
+      x: 207
+      y: 341
+    level: 68
+    monsters:
+    - name: Saurian
+      level: 69
+    - name: Giant Saurian
+      level: 69
+    - name: Stymphalides
+      level: 69
+    - name: Freezing Slime
+      level: 69
+    - name: Giant Rat
+      level: 68
+
+  - name: Danandell Cave
+    ir: 15
+    abbrev: FP-DC
+    location:
+      x: 243
+      y: 341
+    level: 68
+    monsters:
+    - name: Pixie Biff
+      level: 68
+    - name: Pixie Din
+      level: 68
+    - name: Pixie Pow
+      level: 68
+    - name: Pixie Jabber
+      level: 68
+    - name: Strix
+      level: 68
+    - name: Maneater
+      level: 68
+    - name: Gorecyclops
+      level: 68
+    - name: Giant Rat
+      level: 68
+
+  - name: Farana Ruins
+    ir: 45
+    abbrev: FP-FR
+    location:
+      x: 250
+      y: 386
+    level: 70
+    monsters:
+    - name: Bolt Grimwarg
+      level: 70
+    - name: Skeleton Mage
+      level: 70
+    - name: Dark Skeleton
+      level: 70
+    - name: Dark Corpse Punisher
+      level: 70
+    - name: Dark Corpse Torturer
+      level: 70
+    - name: Strix
+      level: 70
+    - name: Maneater
+      level: 70
+    - name: Gorechimera
+      level: 70
+    - name: Ghoul
+      level: 70
+    - name: Medusa
+      level: 70
+    - name: Giant Rat
+      level: 70
+
+  - name: Magusas Ancient Watercourse
+    ir: 50
+    abbrev: FP-MAW
+    location:
+      x: 284
+      y: 362
+    level: 73
+    monsters:
+    - name: Living Armor
+      level: 73
+    - name: Ghost Mail
+      level: 73
+    - name: Frost Skeleton
+      level: 73
+    - name: Bolt Skeleton
+      level: 73
+    - name: Bolt Skeleton Brute
+      level: 73
+    - name: Bolt Corpse Punisher
+      level: 73
+    - name: Bolt Corpse Torturer
+      level: 73
+    - name: Aqua Jelly
+      level: 73
+    - name: Freezing Slime
+      level: 73
+    - name: Acid Blob
+      level: 73
+    - name: Maneater
+      level: 73
+    - name: Witch
+      level: 73
+    - name: Wyrm
+      level: 73
+    - name: Skeleton Mage
+      level: 73
+
+  - name: Vegasas Corridor
+    ir: 15
+    abbrev: FP-VC
+    location:
+      x: 255
+      y: 318
+    level: 75
+    monsters:
+    - name: Severely Infected Pixie
+      level: 75
+    - name: High Pixie Biff
+      level: 75
+    - name: High Pixie Zolda
+      level: 75
+    - name: High Pixie Pow
+      level: 75
+    - name: Severely Infected Warg
+      level: 75
+    - name: Siren
+      level: 75
+    - name: Severely Infected Gorecyclops
+      level: 75
+    - name: Grigori
+      level: 75
+    - name: Severely Infected Demon
+      level: 75
+    - name: Bearded Grigori
+      level: 75
+
+  - name: Valtable Hall
+    ir: 15
+    abbrev: FP-VH
+    location:
+      x: 255
+      y: 318
+    level: 75
+    monsters:
+    - name: Severely Infected Pixie
+      level: 75
+    - name: Green Guardian
+      level: 75
+    - name: Saurian Sage
+      level: 75
+    - name: Giant Saurian Sage
+      level: 75
+    - name: Siren
+      level: 75
+    - name: Severely Infected Stymphalides
+      level: 77
+    - name: Severely Infected Gorecyclops
+      level: 75
+    - name: Severely Infected Demon
+      level: 75
+    - name: Bearded Grigori
+      level: 75
+
+  - name: Thalati Waterway
+    ir: 20
+    abbrev: FP-TW
+    location:
+      x: 296
+      y: 385
+    level: 75
+    monsters:
+    - name: Bolt Grimwarg
+      level: 75
+    - name: Living Armor
+      level: 75
+    - name: Frost Skeleton
+      level: 75
+    - name: Frost Skeleton Brute
+      level: 75
+    - name: Eliminator
+      level: 75
+    - name: Eliminator Slay
+      level: 75
+    - name: Strix
+      level: 75
+    - name: Aqua Jelly
+      level: 75
+    - name: Maneater
+      level: 75
+    - name: Giant Rat
+      level: 75
+    - name: Frog
+      level: 75
+    - name: Gorecyclops
+      level: 75
+
+  - name: Sacred River Ruins
+    ir: 65
+    abbrev: FP-SRR
+    location:
+      x: 243
+      y: 326
+    level: 78
+    monsters:
+    - name: Lux Skeleton
+      level: 78
+    - name: Dark Skeleton
+      level: 78
+    - name: Lux Skeleton Brute
+      level: 78
+    - name: Saurian Sage
+      level: 78
+    - name: Giant Saurian Sage
+      level: 78
+    - name: Large Newt
+      level: 78
+    - name: Lux Corpse Punisher
+      level: 78
+    - name: Dark Corpse Punisher
+      level: 78
+    - name: Maneater
+      level: 78
+    - name: Gorechimera
+      level: 78
+    - name: Medusa
+      level: 78
+    - name: Spider
+      level: 78
+    - name: Skeleton Mage
+      level: 78
+
+  - name: Small Tower of Wisdom
+    ir: 20
+    abbrev: FP-STOW
+    location:
+      x: 261
+      y: 340
+    level: 80
+    monsters:
+    - name: Pixie Jabber
+      level: 80
+    - name: High Pixie Biff
+      level: 80
+    - name: High Pixie Zolda
+      level: 80
+    - name: High Pixie Pow
+      level: 80
+    - name: Pixie King
+      level: 80
+    - name: Strix
+      level: 80
+    - name: Gorecyclops
+      level: 80
+    - name: Giant Rat
+      level: 80
+
 - name: Rathnite Foothills
   subregions:
 
