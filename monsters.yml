@@ -5303,10 +5303,36 @@ regions:
     ir: 70
     abbrev: MF-AUS
     location:
-      x: ???
-      y: ???
+      x: 265
+      y: 306
     level: 80
-    monsters: []
+    monsters:
+    - name: Infected Hobgoblin Fighter
+      level: 80
+    - name: Infected Sling Hobgoblin
+      level: 80
+    - name: Severely Infected Pixie
+      level: 80
+    - name: Infected Direwolf
+      level: 80
+    - name: Severely Infected Warg
+      level: 80
+    - name: Eliminator
+      level: 80
+    - name: Eliminator Slay
+      level: 80
+    - name: Siren
+      level: 80
+    - name: Infected Snow Harpy
+      level: 80
+    - name: Severely Infected Stymphalides
+      level: 80
+    - name: Maneater
+      level: 80
+    - name: Severely Infected Demon
+      level: 80
+    - name: Scourge
+      level: 80
 
 - name: Rathnite Foothills
   subregions:
