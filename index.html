@@ -90,7 +90,7 @@
                     <div class="card-header">
                         <span v-if="translations.enemy[monster.data.name]">{{ translations.enemy[monster.data.name] }}</span> {{ monster.name }}
                         <span class="float-right">
-                            {{ monster.regionData.name }} ~ Lv. {{ monster.regionData.level }} (Schedule: {{ monster.data.timePeriod || 'always' }}, X: {{ monster.regionData.location.x }}, Y: {{ monster.regionData.location.y }})
+                            {{ monster.regionData.name }} ~ Lv. {{ monster.regionData.level }} (Count: {{ monster.data.count || '?' }}, Schedule: {{ monster.data.timePeriod || 'always' }}, X: {{ monster.regionData.location.x }}, Y: {{ monster.regionData.location.y }})
                         </span>
                     </div>
                     <div v-if="!noExtraData">

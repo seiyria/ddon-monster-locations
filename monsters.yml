@@ -2501,8 +2501,10 @@ regions:
     monsters:
     - name: Orc Aimer
       level: 38
+      count: 1
     - name: Orc Banger
       level: 38
+      count: 2
     - name: Giant Rat
       level: 15
 
