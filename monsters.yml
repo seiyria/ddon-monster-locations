@@ -4274,10 +4274,26 @@ regions:
     areaLevel: 9
     abbrev: EWG-JLC
     location:
-      x: ???
-      y: ???
+      x: 195
+      y: 421
     level: 75
-    monsters: []
+    monsters:
+    - name: Warg
+      level: 75
+    - name: Sulfur Saurian
+      level: 75
+    - name: Giant Sulfur Saurian
+      level: 75
+    - name: Stymphalides
+      level: 75
+    - name: Armored Insect
+      level: 75
+    - name: Maneater
+      level: 75
+    - name: White Griffin
+      level: 75
+    - name: Silver Roar
+      level: 75
 
   - name: Old Ferryman's Haunt
     ir: 60
