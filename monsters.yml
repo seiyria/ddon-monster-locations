@@ -4180,19 +4180,25 @@ regions:
     areaLevel: 11
     abbrev: EWG-RODS
     location:
-      x: ???
-      y: ???
+      x: 197
+      y: 367
     level: 75
-    monsters: []
+    monsters:
+    - name: Mutated Green Guardian
+      level: 75
+    - name: Mutated Ent
+      level: 75
 
   - name: Before Elan Front Gate
     areaLevel: 12
     abbrev: EWG-BEFG
     location:
-      x: ???
-      y: ???
+      x: 211
+      y: 379
     level: 75
-    monsters: []
+    monsters:
+    - name: Mutated Green Guardian
+      level: 75
 
   - name: Visiting Square
     ir: 80
@@ -4300,20 +4306,56 @@ regions:
     areaLevel: 11
     abbrev: EWG-OFH
     location:
-      x: ???
-      y: ???
+      x: 198
+      y: 364
     level: 75
-    monsters: []
+    monsters:
+    - name: Green Guardian
+      level: 75
+    - name: Saurian Sage
+      level: 75
+    - name: Giant Saurian Sage
+      level: 75
+    - name: Armored Insect
+      level: 75
+    - name: Maneater
+      level: 75
+    - name: Little Spine
+      level: 75
+    - name: Frog
+      level: 75
+    - name: Spineback
+      level: 75
+    - name: White Griffin
+      level: 75
 
   - name: Elan Quarry Cave
     ir: 65
     areaLevel: 13
   abbrev: EWG-EQC
     location:
-      x: ???
-      y: ???
+      x: 215
+      y: 391
     level: 78
-    monsters: []
+    monsters:
+    - name: Warg
+      level: 78
+    - name: Saurian Sage
+      level: 78
+    - name: Giant Saurian Sage
+      level: 78
+    - name: Stymphalides
+      level: 78
+    - name: Armored Insect
+      level: 78
+    - name: Maneater
+      level: 78
+    - name: White Chimera
+      level: 78
+    - name: Little Spine
+      level: 78
+    - name: Bifrest
+      level: 78
 
 - name: Farana Plains
   subregions:
@@ -4451,10 +4493,12 @@ regions:
     areaLevel: 14
     abbrev: FP-CFS
     location:
-      x: ???
-      y: ???
+      x: 254
+      y: 355
     level: 80
-    monsters: []
+    monsters:
+    - name: Wisened Tarasque
+      level: 80
 
   - name: Dunhain's Hall of Trials
     ir: 15
