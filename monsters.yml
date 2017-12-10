@@ -3351,7 +3351,11 @@ regions:
       x: 226
       y: 84
     level: 48
-    monsters: []
+    monsters:
+    - name: Rusted Alchemized Goblin
+      level: 49
+    - name: Rusted Iron Giant Warrior
+      level: 49
 
   - name: South Mergoda Ruins
     abbrev: ZW-SMR
@@ -3359,7 +3363,9 @@ regions:
       x: 344
       y: 93
     level: 48
-    monsters: []
+    monsters:
+    - name: Zandora Barbarian
+      level: 53
 
   - name: Orc Remnants Camp
     abbrev: ZW-ORC
@@ -3444,7 +3450,47 @@ regions:
       x: 277
       y: 77
     level: 53
-    monsters: []
+    monsters:
+    - name: Skeleton Knight
+      level: 53
+    - name: Runed Living Armor
+      level: 53
+    - name: Skeleton Mage
+      level: 53
+    - name: Runed Ghost Mail
+      level: 53
+    - name: Ooze
+      level: 53
+    - name: Glutton Ooze
+      level: 53
+    - name: Blob
+      level: 53
+    - name: Banded Fighter
+      level: 53
+    - name: Banded Hunter
+      level: 53
+    - name: Banded Defender
+      level: 53
+    - name: Banded Mage
+      level: 53
+    - name: Banded Warrior
+      level: 53
+    - name: Damned Goblin
+      level: 53
+    - name: Damned Sling Goblin
+      level: 53
+    - name: Bright Crystal Eye
+      level: 53
+    - name: Bright Ruby Eye
+      level: 53
+    - name: Bright Lapis Eye
+      level: 53
+    - name: Bright Emerald Eye
+      level: 53
+    - name: Silver Roar
+      level: 53
+    - name: Ghoul
+      level: 53
 
   - name: Pit of Screams
     areaLevel: 13
