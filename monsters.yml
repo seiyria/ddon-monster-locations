@@ -4378,7 +4378,7 @@ regions:
   - name: Elan Quarry Cave
     ir: 65
     areaLevel: 13
-  abbrev: EWG-EQC
+    abbrev: EWG-EQC
     location:
       x: 215
       y: 391
