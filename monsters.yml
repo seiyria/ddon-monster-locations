@@ -3373,7 +3373,11 @@ regions:
       x: 267
       y: 104
     level: 55
-    monsters: []
+    monsters:
+    - name: ???
+      level: 56
+    - name: ???
+      level: 56
 
   - name: Black Abyss Valley
     abbrev: ZW-BAV
@@ -3381,7 +3385,9 @@ regions:
       x: 312
       y: 86
     level: 55
-    monsters: []
+    monsters:
+    - name: Wailing Mora
+      level: 55
 
   - name: Fanatic's Hiding Ground
     abbrev: ZW-FHG
@@ -3389,7 +3395,9 @@ regions:
       x: 266
       y: 75
     level: 70
-    monsters: []
+    monsters:
+    - name: Black Sea Eagle of the Ruined Site
+      level: 70
 
   - name: Old Underground Laboratory
     abbrev: ZW-OUL
@@ -3500,7 +3508,31 @@ regions:
       x: 275
       y: 73
     level: 70
-    monsters: []
+    monsters:
+    - name: Damned Wolf
+      level: 70
+    - name: Living Armor
+      level: 70
+    - name: Sulfur Saurian
+      level: 70
+    - name: Giant Sulfur Saurian
+      level: 70
+    - name: Banded Seeker
+      level: 70
+    - name: Banded Hunter
+      level: 70
+    - name: Banded Defender
+      level: 70
+    - name: Damned Goblin Fighter
+      level: 70
+    - name: Maneater
+      level: 70
+    - name: Damned Golem
+      level: 70
+    - name: Gigant Machina
+      level: 70
+    - name: Giant Rat
+      level: 70
 
 - name: Mergoda Ruins
   subregions:
@@ -4954,7 +4986,11 @@ regions:
       x: 209
       y: 276
     level: 80
-    monsters: []
+    monsters:
+    - name: Severely Infected Stymphalides
+      level: 80
+    - name: Severely Infected Griffin
+      level: 80
 
   - name: Invading Demons Cave
     ir: 45
