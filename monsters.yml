@@ -4283,10 +4283,12 @@ regions:
     areaLevel: 14
     abbrev: EWG-VS
     location:
-      x: ???
-      y: ???
+      x: 217
+      y: 382
     level: 80
-    monsters: []
+    monsters:
+      - name: Phindymian Ent
+        level: 80
 
   - name: Path to Morrow
     ir: 15
